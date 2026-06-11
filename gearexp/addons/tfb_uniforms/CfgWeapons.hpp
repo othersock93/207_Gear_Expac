@@ -6,7 +6,7 @@ class tfb_g3_base_w: Uniform_Base
 {
 	scope = 0;
 	scopeArsenal = 0;
-	author = "TFB";
+	author="207 Community Author";
 	displayName = "Crye G3 Base";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -32,7 +32,7 @@ class tfb_g3_mc_g_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	author = "TFB";
+	author="207 Community Author";
 	displayName = "Crye G3, Full [G/P] (AMC)";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
