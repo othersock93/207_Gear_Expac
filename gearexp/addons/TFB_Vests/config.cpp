@@ -188,7 +188,7 @@ class cfgWeapons
 	class ItemCore;
 	class TFB_JPC_Assaulter_1_148: ItemCore
 	{
-		author="TFL&Co";
+		author="207 Community Author";
 		scope=0;
 		weaponPoolAvailable=1;
 		allowedSlots[]={901};
@@ -234,7 +234,7 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\assves_ca.paa";
 		displayname="JPC Vest Assaulter 1";
 		model="TFB_Vests\JPC\JPC_Assaulter_10_148.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Assaulter_10_148.p3d";
 		};
@@ -245,7 +245,7 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\assves2_ca.paa";
 		displayname="JPC Vest Assaulter 2";
 		model="TFB_Vests\JPC\JPC_Assaulter_13_152A.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Assaulter_13_152A.p3d";
 		};
@@ -256,7 +256,7 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\comves_ca.paa";
 		displayname="JPC Vest Comms 1";
 		model="TFB_Vests\JPC\JPC_Comms_2_Dual_2.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Comms_2_Dual_2.p3d";
 		};
@@ -267,7 +267,7 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\wepves_ca.paa";
 		displayname="JPC Vest Weapons 1";
 		model="TFB_Vests\JPC\JPC_Weapons_2_148.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Weapons_2_148.p3d";
 		};
@@ -278,14 +278,14 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\wepves2_ca.paa";
 		displayname="JPC Vest Weapons 2";
 		model="TFB_Vests\JPC\JPC_Weapons_6_MPU5.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Weapons_6_MPU5.p3d";
 		};
 	};
 	class TFB_JPC_Assaulter_1_148_NB: ItemCore
 	{
-		author="TFL&Co";
+		author="207 Community Author";
 		scope=0;
 		weaponPoolAvailable=1;
 		allowedSlots[]={901};
@@ -331,7 +331,7 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\assves_ca.paa";
 		displayname="JPC Vest Assaulter 1, No Belt";
 		model="TFB_Vests\JPC\JPC_Assaulter_10_148_NB.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Assaulter_10_148_NB.p3d";
 		};
@@ -342,7 +342,7 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\assves2_ca.paa";
 		displayname="JPC Vest Assaulter 2, No Belt";
 		model="TFB_Vests\JPC\JPC_Assaulter_13_152A_NB.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Assaulter_13_152A_NB.p3d";
 		};
@@ -353,7 +353,7 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\comves_ca.paa";
 		displayname="JPC Vest Comms 1, No Belt";
 		model="TFB_Vests\JPC\JPC_Comms_2_Dual_2_NB.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Comms_2_Dual_2_NB.p3d";
 		};
@@ -364,7 +364,7 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\wepves_ca.paa";
 		displayname="JPC Vest Weapons 1, No Belt";
 		model="TFB_Vests\JPC\JPC_Weapons_2_148_NB.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Weapons_2_148_NB.p3d";
 		};
@@ -375,7 +375,7 @@ class cfgWeapons
 		picture="\TFB_Vests\ui\wepves2_ca.paa";
 		displayname="JPC Vest Weapons 2, No Belt";
 		model="TFB_Vests\JPC\JPC_Weapons_6_MPU5_NB.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel="TFB_Vests\JPC\JPC_Weapons_6_MPU5_NB.p3d";
 		};
