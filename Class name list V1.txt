@@ -47,5 +47,7 @@ Class name list V1 NEW
 "skull_ess_t",
 "skull_gator_b",
 "skull_gator_o",
-"skull_gator_t"
+"skull_gator_t",
+"207_amcu_U",
+"207_amcu_RU"
 ]
