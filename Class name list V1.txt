@@ -49,5 +49,7 @@ Class name list V1 NEW
 "skull_gator_o",
 "skull_gator_t",
 "207_amcu_U",
-"207_amcu_RU"
+"207_amcu_RU",
+"207_ampu_U",
+"207_ampu_RU"
 ]
