@@ -50,6 +50,8 @@ Class name list WITH EXFIL V1 NEW
 "skull_gator_t",
 "207_amcu_U",
 "207_amcu_RU",
+"207_ampu_U",
+"207_ampu_RU",
 "ADFRC_Exfil_Cover_Scrim",
 "ADFRC_Exfil_Cover",
 "ADFRC_Exfil_AMPS_Cover_PatchLR",
