@@ -1,0 +1,8 @@
+Class list for items included in Sox Extras
+
+[
+"270_amcu_U",
+"207_amcu_RU",
+"207_ampu_U",
+"207_ampu_RU",
+]
