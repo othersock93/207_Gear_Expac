@@ -1,8 +1,20 @@
 Class list for items included in Sox Extras
 
 [
-"270_amcu_U",
+"skull_bala_b1",
+"skull_bala_o1",
+"skull_bala_t1",
+"skull_bala_b2",
+"skull_bala_o2",
+"skull_bala_t2",
+"skull_ess_b",
+"skull_ess_o",
+"skull_ess_t",
+"skull_gator_b",
+"skull_gator_o",
+"skull_gator_t",
+"207_amcu_U",
 "207_amcu_RU",
 "207_ampu_U",
-"207_ampu_RU",
+"207_ampu_RU"
 ]
