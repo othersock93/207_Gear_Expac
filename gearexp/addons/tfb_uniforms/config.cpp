@@ -88,7 +88,8 @@ class XtdGearModels
 				values[] = 
 				{
 					"AMC",
-					"AMP"
+					"AMP",
+					"MC"
 				};
 				hiddenSelections[] = 
 				{
@@ -110,11 +111,21 @@ class XtdGearModels
 				{
 					textures[] =
 					{
+						"tfb_uniforms\tex\g3_top_amp_co.paa", 
+						"tfb_uniforms\tex\g3_bottom_amp_co.paa",
+						"tfb_uniforms\tex\cuffs_mc_co.paa"
+					};
+					image = "tfb_uniforms\ui\amp.paa";
+				};
+				class MC
+				{
+					textures[] =
+					{
 						"tfb_uniforms\tex\g3_top_mc_co.paa", 
 						"tfb_uniforms\tex\g3_bottom_mc_co.paa",
 						"tfb_uniforms\tex\cuffs_mc_co.paa"
 					};
-					image = "tfb_uniforms\ui\amp.paa";
+					image = "tfb_uniforms\ui\mc.paa";
 				};
 			};
 			class glove_co
