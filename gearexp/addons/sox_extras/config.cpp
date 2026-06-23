@@ -24,15 +24,16 @@ class CfgPatches
 			"A3_Characters_F",
 			"ADF_Core",
 			"adfrc_facewear",
-			"adfrc_helmets"
+			"adfrc_helmets",
+			"Extended_EventHandlers"
 		};
 	};
 };
 
-/*class XtdGearModels
+class XtdGearModels
 {
 	#include "aceax.hpp"
-};*/
+};
 
 class cfgVehicles
 {
@@ -99,7 +100,7 @@ class cfgVehicles
 
 class cfgWeapons
 {
-	//#include "wendy.hpp"
+	#include "wendy.hpp"
 	class Uniform_Base;
 	class UniformItem;
 

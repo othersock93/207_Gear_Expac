@@ -6,9 +6,30 @@
 			author = "Socks | ADF Re-Cut";
 			options[] =
 			{
+				"camo",
 				"earpro",
 				"scrim",
 				"patch"
+			};
+			class camo
+			{
+				label = "Camo Pattern"
+				alwaysSelectable = 1;
+				values[] =
+				{
+					"AMC",
+					"AMP"
+				};
+				class AMC
+				{
+					label = "AMC";
+					description = "Australian Multicam";
+				};
+				class AMP
+				{
+					label = "AMP";
+					description = "Australian Multi Pattern";
+				};
 			};
 			class earpro
 			{
@@ -51,6 +72,7 @@
 			class patch
 			{
 				label = "Morale Patch";
+				alwaysSelectable = 1;
 				values[] =
 				{
 					"D207",
@@ -68,57 +90,68 @@
 				class D207
 				{
 					label = "D207";
-					image = "207 Skull";
+					description = "207 Skull";
+					image = "\sox_extras\ui\207_co.paa";
 				};
 				class PHQ
 				{
 					label = "1-1 PHQ";
-					image = "Platoon HQ";
+					description = "Platoon HQ";
+					image = "\sox_extras\ui\phq_co.paa";
 				};
 				class Alpha
 				{
 					label = "1-1 Alpha";
-					image = "Alpha Section";
+					description = "Alpha Section";
+					image = "\sox_extras\ui\alpha_co.paa";
 				};
 				class Bravo
 				{
 					label = "1-1 Bravo";
-					image = "Bravo Section";
+					description = "Bravo Section";
+					image = "\sox_extras\ui\bravo_co.paa";
 				};
 				class Charlie
 				{
 					label = "1-1 Charlie";
-					image = "Charlie Section";
+					description = "Charlie Section";
+					image = "\sox_extras\ui\charlie_co.paa";
 				};
 				class Reaper
 				{
 					label = "1-1 Reaper";
-					image = "Reaper DFSW";
+					description = "Reaper DFSW";
+					image = "\sox_extras\ui\reaper_co.paa";
 				};
 				class SHQ
 				{
 					label = "1-5 SHQ";
-					image = "Support HQ";
+					description = "Support HQ";
+					image = "\sox_extras\ui\shq_co.paa";
 				};
 				class Foxtrot
 				{
 					label = "1-5 Foxtrot";
-					image = "Foxtrot and Daisy";
+					description = "Foxtrot and Daisy";
+					image = "\sox_extras\ui\foxtrot_co.paa";
 				};
 				class Ghost
 				{
 					label = "1-5 Ghost";
-					image = "Ghost Element";
+					description = "Ghost Element";
+					image = "\sox_extras\ui\ghost_co.paa";
 				};
 				class Defend
 				{
 					label = "Defend";
-					image = "Defend Equality";
+					description = "Defend Equality";
+					image = "\sox_extras\ui\defend_co.paa";
 				};
 				class Pride
 				{
 					label = "Pride";
-					image = "Pride!";
+					description = "Pride!";
+					image = "\sox_extras\ui\pride_co.paa";
 				};
 			};
 		};
