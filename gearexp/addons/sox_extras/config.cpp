@@ -25,10 +25,14 @@ class CfgPatches
 			"ADF_Core",
 			"adfrc_facewear",
 			"adfrc_helmets",
-			"Extended_EventHandlers"
+			"Extended_EventHandlers",
+			"A3_Weapons_F",
+			"adfrc_magazines"
 		};
 	};
 };
+
+#include "M109SPR.hpp"
 
 class XtdGearModels
 {
