@@ -2,7 +2,7 @@ class CfgAmmo
 {
 	class B_556x45_Ball;
 	
-	class M109_SPR: B_556x45_Ball
+	class Mk207_SPR: B_556x45_Ball
 	{
 		airFriction=-0.00085157;
 		caliber=2.0;
@@ -19,7 +19,7 @@ class CfgAmmo
         ACE_barrelLengths[]={254.0, 393.7, 508.0};
 		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
 	};
-	class M109_SPR_IR: M109_SPR
+	class Mk207_SPR_IR: Mk207_SPR
 	{
 		nvgOnly = 1;
 		model = "\A3\Weapons_f\Data\bullettracer\tracer_white";
@@ -30,110 +30,245 @@ class CfgMagazines
 {
 	class 30Rnd_556x45_Stanag;
 	class 30Rnd_556x45_Stanag_Tracer_Red;
+	class 30Rnd_556x45_Stanag_Sand_red;
+	class 30Rnd_556x45_Stanag_Sand_Tracer_Red;
 	class ADFRC_30Rnd_aug;
 	class ADFRC_30Rnd_aug_TR;
 	class ADFRC_100Rnd_556_Minimi;
 	class ADFRC_200Rnd_556_Minimi;
 	class ADFRC_250Rnd_556_Minimi;
+	class rhs_mag_30Rnd_556x45_M855_PMAG;
+	class rhs_mag_30Rnd_556x45_M855_PMAG_Tan;
+	class rhsusf_100Rnd_556x45_M855_soft_pouch_coyote;
+	class rhsusf_200rnd_556x45_M855_box;
+	class rhsusf_200Rnd_556x45_M855_soft_pouch_coyote;
 
-	class M109_SPR_Mag: 30Rnd_556x45_Stanag
+	class Mk207_SPR_Mag: 30Rnd_556x45_Stanag
 	{
 		author = "Socks";
-		ammo = "M109_SPR";
-		displayName = "5.56mm STANAG M109 SPR";
-		displayNameShort = "M109 SPR";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm STANAG Mk207 SPR";
+		displayNameShort = "Mk207 SPR";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		lastRoundsTracer = 0;
 	};
-	class M109_SPR_Mag_TR: 30Rnd_556x45_Stanag_Tracer_Red
+	class Mk207_SPR_Mag_Sand: 30Rnd_556x45_Stanag_Sand_red
 	{
 		author = "Socks";
-		ammo = "M109_SPR";
-		displayName = "5.56mm STANAG M109 SPR (Tracers)";
-		displayNameShort = "M109 SPR Tracer";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm STANAG Mk207 SPR";
+		displayNameShort = "Mk207 SPR";
+		descriptionShort = "5.56mm Special Purpose Round";
+		initSpeed = 950;
+		lastRoundsTracer = 0;
+	};
+	class Mk207_SPR_Mag_TR: 30Rnd_556x45_Stanag_Tracer_Red
+	{
+		author = "Socks";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm STANAG Mk207 SPR (Tracers)";
+		displayNameShort = "Mk207 SPR Tracer";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 1;
 	};
-	class M109_SPR_Mag_IR: M109_SPR_Mag_TR
-	{
-		ammo = "M109_SPR_IR";
-		displayName = "5.56mm STANAG M109 SPR (IR-DIM)";
-		displayNameShort = "M109 SPR IR-DIM";
-	};
-
-	class M109_SPR_Steyr_Mag: ADFRC_30Rnd_aug
+	class Mk207_SPR_Mag_Sand_TR: 30Rnd_556x45_Stanag_Sand_Tracer_Red
 	{
 		author = "Socks";
-		ammo = "M109_SPR";
-		displayName = "5.56mm Steyr M109 SPR";
-		displayNameShort = "M109 SPR";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm STANAG Mk207 SPR (Tracers)";
+		displayNameShort = "Mk207 SPR Tracer";
+		descriptionShort = "5.56mm Special Purpose Round";
+		initSpeed = 950;
+		tracersEvery = 1;
+	};
+	class Mk207_SPR_Mag_IR: Mk207_SPR_Mag_TR
+	{
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm STANAG Mk207 SPR (IR-DIM)";
+		displayNameShort = "Mk207 SPR IR-DIM";
+	};
+	class Mk207_SPR_Mag_Sand_IR: Mk207_SPR_Mag_Sand_TR
+	{
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm STANAG Mk207 SPR (IR-DIM)";
+		displayNameShort = "Mk207 SPR IR-DIM";
+	};
+
+	class Mk207_SPR_Steyr_Mag: ADFRC_30Rnd_aug
+	{
+		author = "Socks";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm Steyr Mk207 SPR";
+		displayNameShort = "Mk207 SPR";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		lastRoundsTracer = 4;
 	};
-	class M109_SPR_Steyr_Mag_TR: ADFRC_30Rnd_aug_TR
+	class Mk207_SPR_Steyr_Mag_TR: ADFRC_30Rnd_aug_TR
 	{
 		author = "Socks";
-		ammo = "M109_SPR";
-		displayName = "5.56mm Steyr M109 SPR (Tracers)";
-		displayNameShort = "M109 SPR Tracer";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm Steyr Mk207 SPR (Tracers)";
+		displayNameShort = "Mk207 SPR Tracer";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 1;
 	};
-	class M109_SPR_Steyr_Mag_IR: M109_SPR_Steyr_Mag_TR
+	class Mk207_SPR_Steyr_Mag_IR: Mk207_SPR_Steyr_Mag_TR
 	{
-		ammo = "M109_SPR_IR";
-		displayName = "5.56mm Steyr M109 SPR (IR-DIM)";
-		displayNameShort = "M109 SPR IR-DIM";
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm Steyr Mk207 SPR (IR-DIM)";
+		displayNameShort = "Mk207 SPR IR-DIM";
 	};
 
-	class M109_SPR_100Rnd: ADFRC_100Rnd_556_Minimi
+	class Mk207_SPR_PMAG: rhs_mag_30Rnd_556x45_M855_PMAG
 	{
 		author = "Socks";
-		ammo = "M109_SPR";
-		displayName = "5.56mm 100Rnd M109 SPR (Red 1:5)";
-		displayNameShort = "M109 SPR Tracer";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm PMAG Mk207 SPR";
+		displayNameShort = "Mk207 SPR";
+		descriptionShort = "5.56mm Special Purpose Round";
+		initSpeed = 950;
+		lastRoundsTracer = 0;
+		mass = 8;
+	};
+	class Mk207_SPR_PMAG_Tan: rhs_mag_30Rnd_556x45_M855_PMAG_Tan
+	{
+		author = "Socks";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm PMAG Mk207 SPR";
+		displayNameShort = "Mk207 SPR";
+		descriptionShort = "5.56mm Special Purpose Round";
+		initSpeed = 950;
+		lastRoundsTracer = 0;
+		mass = 8;
+	};
+	class Mk207_SPR_PMAG_TR: Mk207_SPR_PMAG
+	{
+		displayName = "5.56mm PMAG Mk207 SPR (Tracers)";
+		displayNameShort = "Mk207 SPR Tracer";
+		tracersEvery = 1;
+	};
+	class Mk207_SPR_PMAG_Tan_TR: Mk207_SPR_PMAG_Tan
+	{
+		displayName = "5.56mm PMAG Mk207 SPR (Tracers)";
+		displayNameShort = "Mk207 SPR Tracer";
+		tracersEvery = 1;
+	};
+	class Mk207_SPR_PMAG_IR: Mk207_SPR_PMAG_TR
+	{
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm PMAG Mk207 SPR (IR-DIM)";
+		displayNameShort = "Mk207 SPR IR-DIM";
+	};
+	class Mk207_SPR_PMAG_Tan_IR: Mk207_SPR_PMAG_Tan_TR
+	{
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm PMAG Mk207 SPR (IR-DIM)";
+		displayNameShort = "Mk207 SPR IR-DIM";
+	};
+
+	class Mk207_SPR_100Rnd: ADFRC_100Rnd_556_Minimi
+	{
+		author = "Socks";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm 100Rnd Mk207 SPR (Red 1:5)";
+		displayNameShort = "Mk207 SPR Tracer";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 4;
 	};
-	class M109_SPR_100Rnd_IR: M109_SPR_100Rnd
+	class Mk207_SPR_100Rnd_IR: Mk207_SPR_100Rnd
 	{
-		ammo = "M109_SPR_IR";
-		displayName = "5.56mm 100Rnd M109 SPR (IR 1:5)";
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm 100Rnd Mk207 SPR (IR 1:5)";
+		displayNameShort = "Mk207 SPR IR-DIM";
 	};
-	class M109_SPR_200Rnd: ADFRC_200Rnd_556_Minimi
+	class Mk207_SPR_200Rnd: ADFRC_200Rnd_556_Minimi
 	{
 		author = "Socks";
-		ammo = "M109_SPR";
-		displayName = "5.56mm 200Rnd M109 SPR (Red 1:5)";
-		displayNameShort = "M109 SPR Tracer";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm 200Rnd Mk207 SPR (Red 1:5)";
+		displayNameShort = "Mk207 SPR Tracer";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 4;
 	};
-	class M109_SPR_200Rnd_IR: M109_SPR_200Rnd
+	class Mk207_SPR_200Rnd_IR: Mk207_SPR_200Rnd
 	{
-		ammo = "M109_SPR_IR";
-		displayName = "5.56mm 200Rnd M109 SPR (IR 1:5)";
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm 200Rnd Mk207 SPR (IR 1:5)";
+		displayNameShort = "Mk207 SPR IR-DIM";
 	};
-	class M109_SPR_250Rnd: ADFRC_250Rnd_556_Minimi
+	class Mk207_SPR_250Rnd: ADFRC_250Rnd_556_Minimi
 	{
 		author = "Socks";
-		ammo = "M109_SPR";
-		displayName = "5.56mm 250Rnd M109 SPR (Red 1:5)";
-		displayNameShort = "M109 SPR Tracer";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm 250Rnd Mk207 SPR (Red 1:5)";
+		displayNameShort = "Mk207 SPR Tracer";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 4;
 	};
-	class M109_SPR_250Rnd_IR: M109_SPR_250Rnd
+	class Mk207_SPR_250Rnd_IR: Mk207_SPR_250Rnd
 	{
-		ammo = "M109_SPR_IR";
-		displayName = "5.56mm 250Rnd M109 SPR (IR 1:5)";
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm 250Rnd Mk207 SPR (IR 1:5)";
+		displayNameShort = "Mk207 SPR IR-DIM";
+	};
+
+	class Mk207_SPR_100Rnd_Soft: rhsusf_100Rnd_556x45_M855_soft_pouch_coyote
+	{
+		author = "Socks";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm 100Rnd Mk207 SPR (Red 1:5)";
+		displayNameShort = "Mk207 SPR Tracer";
+		descriptionShort = "5.56mm Special Purpose Round";
+		initSpeed = 950;
+		tracersEvery = 4;
+		mass = 22;
+	};
+	class Mk207_SPR_100Rnd_Soft_IR: Mk207_SPR_100Rnd_Soft
+	{
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm 100Rnd Mk207 SPR (IR 1:5)";
+		displayNameShort = "Mk207 SPR IR-DIM";
+	};
+	class Mk207_SPR_200Rnd_Soft: rhsusf_200Rnd_556x45_M855_soft_pouch_coyote
+	{
+		author = "Socks";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm 200Rnd Mk207 SPR (Red 1:5)";
+		displayNameShort = "Mk207 SPR Tracer";
+		descriptionShort = "5.56mm Special Purpose Round";
+		initSpeed = 950;
+		tracersEvery = 4;
+		mass = 44;
+	};
+	class Mk207_SPR_200Rnd_Soft_IR: Mk207_SPR_200Rnd_Soft
+	{
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm 200Rnd Mk207 SPR (IR 1:5)";
+		displayNameShort = "Mk207 SPR IR-DIM";
+	};
+	class Mk207_SPR_200Rnd_Box: rhsusf_200rnd_556x45_M855_box
+	{
+		author = "Socks";
+		ammo = "Mk207_SPR";
+		displayName = "5.56mm 200Rnd Mk207 SPR (Red 1:5)";
+		displayNameShort = "Mk207 SPR Tracer";
+		descriptionShort = "5.56mm Special Purpose Round";
+		initSpeed = 950;
+		tracersEvery = 4;
+		mass = 50;
+	};
+	class Mk207_SPR_200Rnd_Box_IR: Mk207_SPR_200Rnd_Box
+	{
+		ammo = "Mk207_SPR_IR";
+		displayName = "5.56mm 200Rnd Mk207 SPR (IR 1:5)";
+		displayNameShort = "Mk207 SPR IR-DIM";
 	};
 };
 
@@ -143,48 +278,75 @@ class CfgMagazineWells
 	{
 		ADDON[] = 
 		{
-			"M109_SPR_Mag",
-			"M109_SPR_Mag_TR",
-			"M109_SPR_Mag_IR"
+			"Mk207_SPR_Mag",
+			"Mk207_SPR_Mag_TR",
+			"Mk207_SPR_Mag_IR",
+			"Mk207_SPR_Mag_Sand",
+			"Mk207_SPR_Mag_Sand_TR",
+			"Mk207_SPR_Mag_Sand_IR"
 		};
 	};
 	class STANAG_556x45
 	{
 		ADDON[] = 
 		{
-			"M109_SPR_Mag",
-			"M109_SPR_Mag_TR",
-			"M109_SPR_Mag_IR"
+			"Mk207_SPR_Mag",
+			"Mk207_SPR_Mag_TR",
+			"Mk207_SPR_Mag_IR",
+			"Mk207_SPR_Mag_Sand",
+			"Mk207_SPR_Mag_Sand_TR",
+			"Mk207_SPR_Mag_Sand_IR",
+			"Mk207_SPR_PMAG",
+			"Mk207_SPR_PMAG_Tan",
+			"Mk207_SPR_PMAG_TR",
+			"Mk207_SPR_PMAG_Tan_TR",
+			"Mk207_SPR_PMAG_IR",
+			"Mk207_SPR_PMAG_Tan_IR"
 		};
 	};
 	class CBA_556x45_SCAR_EGLM
 	{
 		ADDON[] = 
 		{
-			"M109_SPR_Mag",
-			"M109_SPR_Mag_TR",
-			"M109_SPR_Mag_IR"
+			"Mk207_SPR_Mag",
+			"Mk207_SPR_Mag_TR",
+			"Mk207_SPR_Mag_IR",
+			"Mk207_SPR_Mag_Sand",
+			"Mk207_SPR_Mag_Sand_TR",
+			"Mk207_SPR_Mag_Sand_IR",
+			"Mk207_SPR_PMAG",
+			"Mk207_SPR_PMAG_Tan",
+			"Mk207_SPR_PMAG_TR",
+			"Mk207_SPR_PMAG_Tan_TR",
+			"Mk207_SPR_PMAG_IR",
+			"Mk207_SPR_PMAG_Tan_IR"
 		};
 	};
 	class CBA_556x45_STEYR
 	{
 		ADDON[] = 
 		{
-			"M109_SPR_Steyr_Mag",
-			"M109_SPR_Steyr_Mag_TR",
-			"M109_SPR_Steyr_Mag_IR"
+			"Mk207_SPR_Steyr_Mag",
+			"Mk207_SPR_Steyr_Mag_TR",
+			"Mk207_SPR_Steyr_Mag_IR"
 		};
 	};
 	class CBA_556x45_MINIMI
 	{
 		ADDON[] = 
 		{
-			"M109_SPR_100Rnd",
-			"M109_SPR_100Rnd_IR",
-			"M109_SPR_200Rnd",
-			"M109_SPR_200Rnd_IR",
-			"M109_SPR_250Rnd",
-			"M109_SPR_250Rnd_IR"
+			"Mk207_SPR_100Rnd",
+			"Mk207_SPR_100Rnd_IR",
+			"Mk207_SPR_200Rnd",
+			"Mk207_SPR_200Rnd_IR",
+			"Mk207_SPR_250Rnd",
+			"Mk207_SPR_250Rnd_IR",
+			"Mk207_SPR_100Rnd_Soft",
+			"Mk207_SPR_100Rnd_Soft_IR",
+			"Mk207_SPR_200Rnd_Soft",
+			"Mk207_SPR_200Rnd_Soft_IR",
+			"Mk207_SPR_200Rnd_Box",
+			"Mk207_SPR_200Rnd_Box_IR"
 		};
 	};
 };
