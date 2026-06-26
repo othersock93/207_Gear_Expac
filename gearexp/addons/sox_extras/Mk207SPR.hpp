@@ -121,6 +121,7 @@ class CfgMagazines
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm Steyr Mk207 SPR (IR-DIM)";
 		displayNameShort = "Mk207 SPR IR-DIM";
+		picture = "\ADF_Weapons\adfrc_magazines\UI\gear_aug_mag_tir_ca.paa";
 	};
 
 	class Mk207_SPR_PMAG: rhs_mag_30Rnd_556x45_M855_PMAG
