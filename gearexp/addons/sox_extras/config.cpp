@@ -32,7 +32,7 @@ class CfgPatches
 	};
 };
 
-#include "M109SPR.hpp"
+#include "Mk207SPR.hpp"
 
 class XtdGearModels
 {
