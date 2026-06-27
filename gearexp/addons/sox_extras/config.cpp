@@ -29,7 +29,8 @@ class CfgPatches
 			"A3_Weapons_F",
 			"adfrc_magazines",
 			"rhs_weapons",
-			"rhs_c_weapons"
+			"rhs_c_weapons",
+			"patches"
 		};
 	};
 };
