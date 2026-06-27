@@ -92,7 +92,7 @@
 				{
 					label = "D207";
 					description = "207 Skull";
-					image = "\sox_extras\ui\207_co.paa";
+					image = "\sox_extras\ui\207_ca.paa";
 				};
 				class PHQ
 				{
@@ -104,7 +104,7 @@
 				{
 					label = "1-1 Alpha";
 					description = "Alpha Section";
-					image = "\sox_extras\ui\alpha_co.paa";
+					image = "\sox_extras\ui\alpha_ca.paa";
 				};
 				class Bravo
 				{
@@ -152,13 +152,13 @@
 				{
 					label = "Defend";
 					description = "Defend Equality";
-					image = "\sox_extras\ui\defend_co.paa";
+					image = "\sox_extras\ui\defend_ca.paa";
 				};
 				class Pride
 				{
 					label = "Pride";
 					description = "Pride!";
-					image = "\sox_extras\ui\pride_co.paa";
+					image = "\sox_extras\ui\pride_ca.paa";
 				};
 			};
 		};
