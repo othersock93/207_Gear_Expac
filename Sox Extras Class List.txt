@@ -1,6 +1,8 @@
 Class list for items included in Sox Extras
 
 [
+"207_Exfil_Comtac_S",
+"207_Exfil_Comtac_Scrim_S",
 "207_Exfil_Comtac_Scrim_SHQ",
 "207_Exfil_Comtac_SHQ",
 "207_Exfil_Comtac_Scrim_R",
@@ -23,6 +25,8 @@ Class list for items included in Sox Extras
 "207_Exfil_Comtac_A",
 "207_Exfil_Comtac_Scrim_207",
 "207_Exfil_Comtac_207",
+"207_Exfil_AMPS_S",
+"207_Exfil_AMPS_Scrim_S",
 "207_Exfil_AMPS_Scrim_SHQ",
 "207_Exfil_AMPS_SHQ",
 "207_Exfil_AMPS_Scrim_R",
