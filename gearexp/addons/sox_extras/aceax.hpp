@@ -85,8 +85,8 @@
 					"SHQ",
 					"Foxtrot",
 					"Ghost",
-					"Defend",
-					"Pride"
+					"Hawkeye",
+					"Defend"
 				};
 				class D207
 				{
@@ -148,17 +148,17 @@
 					description = "Ghost Element";
 					image = "\Hue_Additions_Patreon_Patches\PatchTextures\15G.paa";
 				};
+				class Hawkeye
+				{
+					label = "1-5 Hawkeye";
+					description = "207 Aviation Team";
+					image = "\Hue_Additions_Patreon_Patches\PatchTextures\15H_NM.paa";
+				};
 				class Defend
 				{
 					label = "Defend";
 					description = "Defend Equality";
 					image = "\sox_extras\ui\defend_ca.paa";
-				};
-				class Pride
-				{
-					label = "Pride";
-					description = "Pride!";
-					image = "\sox_extras\ui\pride_ca.paa";
 				};
 			};
 		};

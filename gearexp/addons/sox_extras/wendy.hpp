@@ -1334,6 +1334,139 @@
 		};
 	};
 
+	class 207_Exfil_AMPS_H: ADFRC_Exfil_AMPS_Cover_PatchLR_Helstar_Battery
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "EXFIL Rail 3.0 (Amps, Hawkeye)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\Hawkeye_co.paa", // Replace
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_mic_co.paa",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_cups_co.paa",
+			"",
+			"#(rgb,8,8,3)color(0.062745,0.062745,0.062745,1)",
+			"",
+			""
+		};
+		class XtdGearInfo
+		{
+			model = "patch_helm";
+			camo = "AMP";
+			earpro = "amps";
+			scrim = "off";
+			patch = "Hawkeye";
+		};
+	};
+	class 207_Exfil_AMPS_Scrim_H: ADFRC_Exfil_AMPS_Cover_PatchLR_Helstar_Battery_Scrim
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "EXFIL Rail 3.0 (Amps, Hawkeye, Scrim)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\Hawkeye_co.paa", // Replace
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_mic_co.paa",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_cups_co.paa",
+			"",
+			"#(rgb,8,8,3)color(0.062745,0.062745,0.062745,1)",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_scrim_co.paa"
+		};
+		class XtdGearInfo
+		{
+			model = "patch_helm";
+			camo = "AMP";
+			earpro = "amps";
+			scrim = "on";
+			patch = "Hawkeye";
+		};
+	};
+	class 207_Exfil_Comtac_H: ADFRC_Exfil_Comtac6_Cover_PatchLR_Helstar_Battery
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "EXFIL Rail 3.0 (Comtac-6, Hawkeye)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\Hawkeye_co.paa", // Replace
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		};
+		class XtdGearInfo
+		{
+			model = "patch_helm";
+			camo = "AMP";
+			earpro = "comtac";
+			scrim = "off";
+			patch = "Hawkeye";
+		};
+	};
+	class 207_Exfil_Comtac_Scrim_H: ADFRC_Exfil_Comtac6_Cover_PatchLR_Helstar_Battery_Scrim
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "EXFIL Rail 3.0 (Comtac-6, Hawkeye, Scrim)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\Hawkeye_co.paa", // Replace
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_scrim_co.paa"
+		};
+		class XtdGearInfo
+		{
+			model = "patch_helm";
+			camo = "AMP";
+			earpro = "comtac";
+			scrim = "on";
+			patch = "Hawkeye";
+		};
+	};
+
 	class 207_Exfil_AMPS_Def: ADFRC_Exfil_AMPS_Cover_PatchLR_Helstar_Battery
 	{
 		author = "Socks | ADF Re-Cut";
@@ -1464,138 +1597,5 @@
 			earpro = "comtac";
 			scrim = "on";
 			patch = "Defend";
-		};
-	};
-
-	class 207_Exfil_AMPS_Pride: ADFRC_Exfil_AMPS_Cover_PatchLR_Helstar_Battery
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "EXFIL Rail 3.0 (Amps, Pride)";
-		hiddenSelectionsTextures[] = 
-		{
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
-			"\sox_extras\tx\Pride_co.paa", // Replace
-			"",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
-			"",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_mic_co.paa",
-			"",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_cups_co.paa",
-			"",
-			"#(rgb,8,8,3)color(0.062745,0.062745,0.062745,1)",
-			"",
-			""
-		};
-		class XtdGearInfo
-		{
-			model = "patch_helm";
-			camo = "AMC";
-			earpro = "amps";
-			scrim = "off";
-			patch = "Pride";
-		};
-	};
-	class 207_Exfil_AMPS_Scrim_Pride: ADFRC_Exfil_AMPS_Cover_PatchLR_Helstar_Battery_Scrim
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "EXFIL Rail 3.0 (Amps, Pride, Scrim)";
-		hiddenSelectionsTextures[] = 
-		{
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
-			"\sox_extras\tx\Pride_co.paa", // Replace
-			"",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
-			"",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_mic_co.paa",
-			"",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_cups_co.paa",
-			"",
-			"#(rgb,8,8,3)color(0.062745,0.062745,0.062745,1)",
-			"",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_scrim_co.paa"
-		};
-		class XtdGearInfo
-		{
-			model = "patch_helm";
-			camo = "AMC";
-			earpro = "amps";
-			scrim = "on";
-			patch = "Pride";
-		};
-	};
-	class 207_Exfil_Comtac_Pride: ADFRC_Exfil_Comtac6_Cover_PatchLR_Helstar_Battery
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "EXFIL Rail 3.0 (Comtac-6, Pride)";
-		hiddenSelectionsTextures[] = 
-		{
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
-			"\sox_extras\tx\Pride_co.paa", // Replace
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			""
-		};
-		class XtdGearInfo
-		{
-			model = "patch_helm";
-			camo = "AMC";
-			earpro = "comtac";
-			scrim = "off";
-			patch = "Pride";
-		};
-	};
-	class 207_Exfil_Comtac_Scrim_Pride: ADFRC_Exfil_Comtac6_Cover_PatchLR_Helstar_Battery_Scrim
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "EXFIL Rail 3.0 (Comtac-6, Pride, Scrim)";
-		hiddenSelectionsTextures[] = 
-		{
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
-			"\sox_extras\tx\Pride_co.paa", // Replace
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_scrim_co.paa"
-		};
-		class XtdGearInfo
-		{
-			model = "patch_helm";
-			camo = "AMC";
-			earpro = "comtac";
-			scrim = "on";
-			patch = "Pride";
 		};
 	};
