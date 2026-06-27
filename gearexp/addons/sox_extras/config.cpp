@@ -269,7 +269,7 @@ class CfgGlasses
 	};
 };
 
-class CfgPatches
+class CfgUnitInsignia
 {
 	class insignia_11_S
 	{
