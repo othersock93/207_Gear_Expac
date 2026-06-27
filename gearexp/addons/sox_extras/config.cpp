@@ -268,14 +268,3 @@ class CfgGlasses
 		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
 	};
 };
-
-class CfgUnitInsignia
-{
-	class insignia_11_S
-	{
-		displayName = "[207 Core] 11S";
-		author = "1 1 Starlight";
-		texture = "\sox_extras\ui\11S_ca.paa";
-		textureVehicle = "";
-	};
-};
