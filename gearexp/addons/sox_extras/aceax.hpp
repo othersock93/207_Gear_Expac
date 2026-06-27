@@ -81,6 +81,7 @@
 					"Bravo",
 					"Charlie",
 					"Reaper",
+					"Starlight",
 					"SHQ",
 					"Foxtrot",
 					"Ghost",
@@ -97,7 +98,7 @@
 				{
 					label = "1-1 PHQ";
 					description = "Platoon HQ";
-					image = "\sox_extras\ui\phq_co.paa";
+					image = "\Hue_Additions_Patreon_Patches\PatchTextures\11HQ.paa";
 				};
 				class Alpha
 				{
@@ -109,37 +110,43 @@
 				{
 					label = "1-1 Bravo";
 					description = "Bravo Section";
-					image = "\sox_extras\ui\bravo_co.paa";
+					image = "\Hue_Additions_Patreon_Patches\PatchTextures\11B.paa";
 				};
 				class Charlie
 				{
 					label = "1-1 Charlie";
 					description = "Charlie Section";
-					image = "\sox_extras\ui\charlie_co.paa";
+					image = "\Hue_Additions_Patreon_Patches\PatchTextures\11C.paa";
 				};
 				class Reaper
 				{
 					label = "1-1 Reaper";
 					description = "Reaper DFSW";
-					image = "\sox_extras\ui\reaper_co.paa";
+					image = "\Hue_Additions_Patreon_Patches\PatchTextures\11R.paa";
+				};
+				class Starlight
+				{
+					label = "1-1 Starlight";
+					description = "Starlight Medic Team";
+					image = "\sox_extras\ui\11S_ca.paa";
 				};
 				class SHQ
 				{
 					label = "1-5 SHQ";
 					description = "Support HQ";
-					image = "\sox_extras\ui\shq_co.paa";
+					image = "\Hue_Additions_Patreon_Patches\PatchTextures\15HQ.paa";
 				};
 				class Foxtrot
 				{
 					label = "1-5 Foxtrot";
 					description = "Foxtrot and Daisy";
-					image = "\sox_extras\ui\foxtrot_co.paa";
+					image = "\Hue_Additions_Patreon_Patches\PatchTextures\15F.paa";
 				};
 				class Ghost
 				{
 					label = "1-5 Ghost";
 					description = "Ghost Element";
-					image = "\sox_extras\ui\ghost_co.paa";
+					image = "\Hue_Additions_Patreon_Patches\PatchTextures\15G.paa";
 				};
 				class Defend
 				{

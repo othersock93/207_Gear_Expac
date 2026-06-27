@@ -802,6 +802,139 @@
 		};
 	};
 
+	class 207_Exfil_AMPS_S: ADFRC_Exfil_AMPS_Cover_PatchLR_Helstar_Battery
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "EXFIL Rail 3.0 (Amps, Starlight)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\Starlight_co.paa", // Replace
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_mic_co.paa",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_cups_co.paa",
+			"",
+			"#(rgb,8,8,3)color(0.062745,0.062745,0.062745,1)",
+			"",
+			""
+		};
+		class XtdGearInfo
+		{
+			model = "patch_helm";
+			camo = "AMC";
+			earpro = "amps";
+			scrim = "off";
+			patch = "Starlight";
+		};
+	};
+	class 207_Exfil_AMPS_Scrim_S: ADFRC_Exfil_AMPS_Cover_PatchLR_Helstar_Battery_Scrim
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "EXFIL Rail 3.0 (Amps, Starlight, Scrim)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\Starlight_co.paa", // Replace
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_mic_co.paa",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_cups_co.paa",
+			"",
+			"#(rgb,8,8,3)color(0.062745,0.062745,0.062745,1)",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_scrim_co.paa"
+		};
+		class XtdGearInfo
+		{
+			model = "patch_helm";
+			camo = "AMC";
+			earpro = "amps";
+			scrim = "on";
+			patch = "Starlight";
+		};
+	};
+	class 207_Exfil_Comtac_S: ADFRC_Exfil_Comtac6_Cover_PatchLR_Helstar_Battery
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "EXFIL Rail 3.0 (Comtac-6, Starlight)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\Starlight_co.paa", // Replace
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		};
+		class XtdGearInfo
+		{
+			model = "patch_helm";
+			camo = "AMC";
+			earpro = "comtac";
+			scrim = "off";
+			patch = "Starlight";
+		};
+	};
+	class 207_Exfil_Comtac_Scrim_S: ADFRC_Exfil_Comtac6_Cover_PatchLR_Helstar_Battery_Scrim
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "EXFIL Rail 3.0 (Comtac-6, Starlight, Scrim)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_cover_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\Starlight_co.paa", // Replace
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"\ADF_Gear\adfrc_helmets\data\teamwendy_scrim_co.paa"
+		};
+		class XtdGearInfo
+		{
+			model = "patch_helm";
+			camo = "AMC";
+			earpro = "comtac";
+			scrim = "on";
+			patch = "Starlight";
+		};
+	};
+
 	class 207_Exfil_AMPS_SHQ: ADFRC_Exfil_AMPS_Cover_PatchLR_Helstar_Battery
 	{
 		author = "Socks | ADF Re-Cut";
@@ -813,7 +946,7 @@
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\amp_patch_co.paa",
 			"\sox_extras\tx\SHQ_co.paa", // Replace
 			"",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
@@ -846,7 +979,7 @@
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\amp_patch_co.paa",
 			"\sox_extras\tx\SHQ_co.paa", // Replace
 			"",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
@@ -879,7 +1012,7 @@
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\amp_patch_co.paa",
 			"\sox_extras\tx\SHQ_co.paa", // Replace
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
 			"",
@@ -912,7 +1045,7 @@
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\amp_patch_co.paa",
 			"\sox_extras\tx\SHQ_co.paa", // Replace
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
 			"",
@@ -1079,7 +1212,7 @@
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\amp_patch_co.paa",
 			"\sox_extras\tx\Ghost_co.paa", // Replace
 			"",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
@@ -1112,7 +1245,7 @@
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\amp_patch_co.paa",
 			"\sox_extras\tx\Ghost_co.paa", // Replace
 			"",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_amp_arms_co.paa",
@@ -1145,7 +1278,7 @@
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\amp_patch_co.paa",
 			"\sox_extras\tx\Ghost_co.paa", // Replace
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
 			"",
@@ -1178,7 +1311,7 @@
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_rails_co.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_helstar_ca.paa",
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_battery_pack_co.paa",
-			"\ADF_Gear\adfrc_helmets\data\teamwendy_patch_left_co.paa",
+			"\sox_extras\tx\amp_patch_co.paa",
 			"\sox_extras\tx\Ghost_co.paa", // Replace
 			"\ADF_Gear\adfrc_helmets\data\teamwendy_comtac_6_co.paa",
 			"",
