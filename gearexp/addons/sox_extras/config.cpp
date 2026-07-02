@@ -27,6 +27,7 @@ class CfgPatches
 			"adfrc_helmets",
 			"Extended_EventHandlers",
 			"A3_Weapons_F",
+			"A3_Weapons_F_Mark",
 			"adfrc_magazines",
 			"rhs_weapons",
 			"rhs_c_weapons",
