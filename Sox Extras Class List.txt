@@ -91,5 +91,8 @@ Class list for items included in Sox Extras
 "Mk207_SPR_Mag_Sand_TR",
 "Mk207_SPR_Steyr_Mag",
 "Mk207_SPR_Steyr_Mag_IR",
-"Mk207_SPR_Steyr_Mag_TR"
+"Mk207_SPR_Steyr_Mag_TR",
+"Mk207_300_5Rnd",
+"Mk207_338_10Rnd",
+"Mk207_127_10Rnd"
 ]
