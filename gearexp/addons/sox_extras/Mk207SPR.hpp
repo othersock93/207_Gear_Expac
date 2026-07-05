@@ -8,8 +8,8 @@ class CfgAmmo
 	class Mk207_SPR: B_556x45_Ball
 	{
 		airFriction=-0.00085157;
-		caliber=2.0;
-		hit=16;
+		caliber=1;
+		hit=17;
         ACE_caliber=5.69;
         ACE_bulletLength=23.012;
         ACE_bulletMass=3.0176;
