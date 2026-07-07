@@ -270,3 +270,11 @@ class CfgGlasses
 		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
 	};
 };
+
+class CfgUnitInsignia
+{
+	class insignia_11_A
+	{
+		texture = "\sox_extras\ui\11A_ca.paa";
+	};
+};
