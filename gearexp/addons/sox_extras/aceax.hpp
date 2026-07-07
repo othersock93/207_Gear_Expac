@@ -104,7 +104,7 @@
 				{
 					label = "1-1 Alpha";
 					description = "Alpha Section";
-					image = "\sox_extras\ui\alpha_ca.paa";
+					image = "\sox_extras\ui\11A_ca.paa";
 				};
 				class Bravo
 				{
