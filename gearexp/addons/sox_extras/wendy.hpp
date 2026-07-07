@@ -1361,7 +1361,7 @@
 		class XtdGearInfo
 		{
 			model = "patch_helm";
-			camo = "AMP";
+			camo = "AMC";
 			earpro = "amps";
 			scrim = "off";
 			patch = "Hawkeye";
@@ -1394,7 +1394,7 @@
 		class XtdGearInfo
 		{
 			model = "patch_helm";
-			camo = "AMP";
+			camo = "AMC";
 			earpro = "amps";
 			scrim = "on";
 			patch = "Hawkeye";
@@ -1427,7 +1427,7 @@
 		class XtdGearInfo
 		{
 			model = "patch_helm";
-			camo = "AMP";
+			camo = "AMC";
 			earpro = "comtac";
 			scrim = "off";
 			patch = "Hawkeye";
@@ -1460,7 +1460,7 @@
 		class XtdGearInfo
 		{
 			model = "patch_helm";
-			camo = "AMP";
+			camo = "AMC";
 			earpro = "comtac";
 			scrim = "on";
 			patch = "Hawkeye";
