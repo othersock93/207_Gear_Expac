@@ -9,14 +9,22 @@ class CfgPatches
 			"207_amcu_R",
 			"207_amcu",
 			"207_ampu_R",
-			"207_ampu"
+			"207_ampu",
+			"207_amcs_R",
+			"207_amcs",
+			"207_amct_R",
+			"207_amct"
 		};
 		weapons[]=
 		{
 			"207_amcu_RU",
 			"207_amcu_U",
 			"207_ampu_RU",
-			"207_ampu_U"
+			"207_ampu_U",
+			"207_amcs_RU",
+			"207_amcs_U",
+			"207_amct_RU",
+			"207_amct_U"
 		};
 		requiredVersion=1;
 		requiredAddons[]=
@@ -104,6 +112,64 @@ class cfgVehicles
 		hiddenSelections[] = {"Camo","Insignia"};
 		hiddenSelectionsTextures[] = {"sox_extras\tx\207amp_uni.paa"};
 	};
+
+	class 207_amcs: B_Soldier_base_F
+	{
+		author = "Socks";
+		vehicleClass = "Men";
+		scope = 1;
+		displayName = "Crye G3 Combat Fatigues (AMCU-S)";
+		picture = "\sox_extras\ui\sleeve3_ca.paa";
+		identityTypes[] = {"Head_NATO", "G_NATO_default"};
+		modelSides[] = {3,2,1,0};
+		model = "\A3\characters_f\BLUFOR\b_soldier_01.p3d";
+		uniformClass = "207_amcs_U";
+		hiddenSelections[] = {"Camo","Insignia"};
+		hiddenSelectionsTextures[] = {"sox_extras\tx\207ams_uni.paa"};
+	};
+	class 207_amcs_R: B_Soldier_base_F
+	{
+		author = "Socks";
+		vehicleClass = "Men";
+		scope = 1;
+		displayName = "Crye G3 Combat Fatigues (AMCU-S/Rolled)";
+		picture = "\sox_extras\ui\roll3_ca.paa";
+		identityTypes[] = {"Head_NATO", "G_NATO_default"};
+		modelSides[] = {3,2,1,0};
+		model = "\A3\characters_f\BLUFOR\b_soldier_03.p3d";
+		uniformClass = "207_amcs_RU";
+		hiddenSelections[] = {"Camo","Insignia"};
+		hiddenSelectionsTextures[] = {"sox_extras\tx\207ams_uni.paa"};
+	};
+
+		class 207_amct: B_Soldier_base_F
+	{
+		author = "Socks";
+		vehicleClass = "Men";
+		scope = 1;
+		displayName = "Crye G3 Combat Fatigues (AMCU-T)";
+		picture = "\sox_extras\ui\sleeve4_ca.paa";
+		identityTypes[] = {"Head_NATO", "G_NATO_default"};
+		modelSides[] = {3,2,1,0};
+		model = "\A3\characters_f\BLUFOR\b_soldier_01.p3d";
+		uniformClass = "207_amct_U";
+		hiddenSelections[] = {"Camo","Insignia"};
+		hiddenSelectionsTextures[] = {"sox_extras\tx\207amt_uni.paa"};
+	};
+	class 207_amct_R: B_Soldier_base_F
+	{
+		author = "Socks";
+		vehicleClass = "Men";
+		scope = 1;
+		displayName = "Crye G3 Combat Fatigues (AMCU-T/Rolled)";
+		picture = "\sox_extras\ui\roll4_ca.paa";
+		identityTypes[] = {"Head_NATO", "G_NATO_default"};
+		modelSides[] = {3,2,1,0};
+		model = "\A3\characters_f\BLUFOR\b_soldier_03.p3d";
+		uniformClass = "207_amct_RU";
+		hiddenSelections[] = {"Camo","Insignia"};
+		hiddenSelectionsTextures[] = {"sox_extras\tx\207amt_uni.paa"};
+	};
 };
 
 class cfgWeapons
@@ -177,6 +243,76 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "207_ampu_R"; 
+			containerClass = "Supply40";
+			mass = 40;
+		}; 
+	};
+
+	class 207_amcs_U: Uniform_Base 
+	{ 
+		scope = 2;
+		author = "Socks";
+		displayName = "Crye G3 Combat Fatigues (AMCU-S)";
+		picture = "\sox_extras\ui\sleeve3_ca.paa";
+		model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\sox_extras\tx\ams_suitpack.paa"};
+		class ItemInfo: UniformItem 
+		{
+			uniformModel = "-";
+			uniformClass = "207_amcs"; 
+			containerClass = "Supply40";
+			mass = 40;
+		}; 
+	};
+	class 207_amcs_RU: Uniform_Base 
+	{ 
+		scope = 2;
+		author = "Socks";
+		displayName = "Crye G3 Combat Fatigues (AMCU-S/Rolled)";
+		picture = "\sox_extras\ui\roll3_ca.paa";
+		model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\sox_extras\tx\ams_suitpack.paa"};
+		class ItemInfo: UniformItem 
+		{
+			uniformModel = "-";
+			uniformClass = "207_amcu_R"; 
+			containerClass = "Supply40";
+			mass = 40;
+		}; 
+	};
+
+	class 207_amct_U: Uniform_Base 
+	{ 
+		scope = 2;
+		author = "Socks";
+		displayName = "Crye G3 Combat Fatigues (AMCU-T)";
+		picture = "\sox_extras\ui\sleeve4_ca.paa";
+		model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\sox_extras\tx\amt_suitpack.paa"};
+		class ItemInfo: UniformItem 
+		{
+			uniformModel = "-";
+			uniformClass = "207_amct"; 
+			containerClass = "Supply40";
+			mass = 40;
+		}; 
+	};
+	class 207_amct_RU: Uniform_Base 
+	{ 
+		scope = 2;
+		author = "Socks";
+		displayName = "Crye G3 Combat Fatigues (AMCU-T/Rolled)";
+		picture = "\sox_extras\ui\roll4_ca.paa";
+		model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\sox_extras\tx\amt_suitpack.paa"};
+		class ItemInfo: UniformItem 
+		{
+			uniformModel = "-";
+			uniformClass = "207_amct_R"; 
 			containerClass = "Supply40";
 			mass = 40;
 		}; 
