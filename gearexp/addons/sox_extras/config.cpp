@@ -277,7 +277,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem 
 		{
 			uniformModel = "-";
-			uniformClass = "207_amcu_R"; 
+			uniformClass = "207_amcs_R"; 
 			containerClass = "Supply40";
 			mass = 40;
 		}; 
