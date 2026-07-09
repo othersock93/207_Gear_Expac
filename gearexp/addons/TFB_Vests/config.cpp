@@ -188,7 +188,7 @@ class cfgWeapons
 	class ItemCore;
 	class TFB_JPC_Assaulter_1_148: ItemCore
 	{
-		author="207 Community Author";
+		author="Mac n Socks";
 		scope=0;
 		weaponPoolAvailable=1;
 		allowedSlots[]={901};
@@ -285,7 +285,7 @@ class cfgWeapons
 	};
 	class TFB_JPC_Assaulter_1_148_NB: ItemCore
 	{
-		author="207 Community Author";
+		author="Mac n Socks";
 		scope=0;
 		weaponPoolAvailable=1;
 		allowedSlots[]={901};
