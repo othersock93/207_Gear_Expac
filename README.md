@@ -52,6 +52,9 @@ The project should respect player filesize limitations, and not overly bloat exi
 - Fully implemented completed helmet patches for all sections
 - Implemented AMCS and AMCT camo swatches for vanilla G3 uniforms
 
+## V1.0
+- Ready for release to 207 Community
+
 # Planned Additions
 ## V1.1 - V2.0
 - Fork development to new sox_extras repo
@@ -60,3 +63,4 @@ The project should respect player filesize limitations, and not overly bloat exi
 - Investigate implementation of bespoke vests and uniforms for support assets (Daisy, Foxtrot, Hawkeye, Nightmare, Dagger)
 - Investigate implementation of AMPU, AMCS, and AMCT swatches to commonly-used vests and bags
 - Investigate implementation of AMPU, AMCS, and AMCT swatches to TW EXFIL helemts
+- Investigate modifications to hi-res uniform models to allow for My_Unit Insignia useage
