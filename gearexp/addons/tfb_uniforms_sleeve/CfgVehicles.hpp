@@ -5,7 +5,7 @@ class tfb_g3_base_v: B_Soldier_base_F
 	scope = 0;
 	camouflage = 1;
 	scopeArsenal = 0;
-	author="207 Community Author";
+	author="Mac n Socks";
 	model = "\tfb_uniforms\mesh\tfb_g3_g.p3d";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	uniformClass = "tfb_g3_mc_g_w";
