@@ -21,7 +21,7 @@ class CfgVehicles
 	class B_AssaultPack_mcamo;
 	class USASOC_PANEL_7: B_AssaultPack_mcamo
 	{
-		author="207 Community Author";
+		author="Mac n Socks";
 		scope=2;
 		displayName="JPC Backpanel, Assaulter";
 		model="USASOC_backpacks_2\JPCPanel1.p3d";
