@@ -32,7 +32,7 @@ class tfb_g3_mc_r1_g_s_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/4 Roll [G/P/S] (AMC)";
+	displayName = "Crye G3, 1/4 Roll [G/P/S] (207)";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -51,7 +51,7 @@ class tfb_g3_mc_r2_g_s_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/2 Roll [G/P/S] (AMC)";
+	displayName = "Crye G3, 1/2 Roll [G/P/S] (207)";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -71,7 +71,7 @@ class tfb_g3_mc_r1_s_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/4 Roll [P/S] (AMC)";
+	displayName = "Crye G3, 1/4 Roll [P/S] (207)";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -90,7 +90,7 @@ class tfb_g3_mc_r2_s_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/2 Roll [P/S] (AMC)";
+	displayName = "Crye G3, 1/2 Roll [P/S] (207)";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -113,7 +113,7 @@ class tfb_g3_mc_r1_np_g_s_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/4 Roll [G/S] (AMC)";
+	displayName = "Crye G3, 1/4 Roll [G/S] (207)";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -132,7 +132,7 @@ class tfb_g3_mc_r2_np_g_s_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/2 Roll [G/S] (AMC)";
+	displayName = "Crye G3, 1/2 Roll [G/S] (207)";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -152,7 +152,7 @@ class tfb_g3_mc_r1_np_s_w: tfb_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/4 Roll [S] (AMC)";
+	displayName = "Crye G3, 1/4 Roll [S] (207)";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
@@ -171,7 +171,7 @@ class tfb_g3_mc_r2_np_s_w: tfb_g3_base_w
 {
 	scope = 0;
 	scopeArsenal = 2;
-	displayName = "Crye G3, 1/2 Roll [S] (AMC)";
+	displayName = "Crye G3, 1/2 Roll [S] (207)";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
