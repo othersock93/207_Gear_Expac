@@ -151,7 +151,7 @@ class CfgVehicles
 	{
 		scope=1; // Visibility |1 = No visible on Arsenal | 2 = Visible on Arsenal
 		scopeCurator=0;
-		author="207 Community Author"; // use Your name or team name
+		author="Mac n Socks"; // use Your name or team name
 		displayName="";
 		picture="";
 		isbackpack=1;
@@ -169,7 +169,7 @@ class CfgVehicles
 	class ace_gunbag: Bag_Base
 	{
 		_generalMacro="ace_gunbag";
-		author="207 Community Author";
+		author="Mac n Socks";
 		scope=0;
 		displayName="$STR_ace_gunbag_Displayname";
 		model="\z\ace\addons\gunbag\data\ace_gunbag.p3d";
@@ -191,7 +191,7 @@ class CfgVehicles
 	class ace_gunbag_Tan: ace_gunbag
 	{
 		_generalMacro="ace_gunbag_Tan";
-		author="207 Community Author";
+		author="Mac n Socks";
 		scope=0;
 		displayName="$STR_ace_gunbag_Displayname_Tan";
 		picture="\z\ace\addons\gunbag\ui\gunbag_tan_ca.paa";
@@ -220,7 +220,7 @@ class CfgVehicles
 	
 	class Medic_Pack: Bag_Base
 	{
-		author="207 Community Author";
+		author="Mac n Socks";
 		scope=2;
 		displayName="TCCC RATS Pack";
 		model="\USASOC_backpacks\Medic_Pack.p3d";
@@ -236,7 +236,7 @@ class CfgVehicles
 	};
 	class JTAC_Pack: Bag_Base
 	{
-		author="207 Community Author";
+		author="Mac n Socks";
 		scope=2;
 		displayName="JTAC Kitbag";
 		model="\USASOC_backpacks\TACP_Pack.p3d";
@@ -252,7 +252,7 @@ class CfgVehicles
 	};
 	class MG_Pack: ace_gunbag
 	{
-		author="207 Community Author";
+		author="Mac n Socks";
 		scope=2;
 		scopeArsenal=2;
 		scopeCurator=2;
@@ -282,7 +282,7 @@ class CfgVehicles
 	};
 	class jpc_panel_2: Bag_Base
 	{
-		author="207 Community Author";
+		author="Mac n Socks";
 		scope=2;
 		displayName="JPC Backpanel, Sapper";
 		model="\USASOC_backpacks\jpc_panel_2.p3d";
