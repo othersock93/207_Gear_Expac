@@ -16,7 +16,7 @@ The project should respect player filesize limitations, and not overly bloat exi
 
 ## V0.2
 - Implemented AMCU and AMPU camo swatches for uniforms
-  - AMPU only available for uniforms
+ - AMPU only available for uniforms
 - Implemented bespoke bags for various roles (i.e. TCCC bag for Starlight, Heavy Weapons Rucksack for Reaper)
 - Implemented set of vests for infantry
 
@@ -56,7 +56,7 @@ The project should respect player filesize limitations, and not overly bloat exi
 ## V1.1 - V2.0
 - Fork development to new sox_extras repo
 - Investigate incorporation of ACEAX compatible dive suit options (Pull from Sock's Aussie Survival Fatigues mod)
-  - Investigate incorporation of full-camo dive gear options (USMC dive uniforms?)
+ - Investigate incorporation of full-camo dive gear options (USMC dive uniforms?)
 - Investigate implementation of bespoke vests and uniforms for support assets (Daisy, Foxtrot, Hawkeye, Nightmare, Dagger)
 - Investigate implementation of AMPU, AMCS, and AMCT swatches to commonly-used vests and bags
 - Investigate implementation of AMPU, AMCS, and AMCT swatches to TW EXFIL helemts
