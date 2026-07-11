@@ -127,5 +127,8 @@ Class name list WITH EXFIL V1 NEW
 "Mk207_SPR_Steyr_Mag_TR",
 "Mk207_300_5Rnd",
 "Mk207_338_10Rnd",
-"Mk207_127_10Rnd"
+"Mk207_127_10Rnd",
+"Mk207_762_20Rnd",
+"Mk207_762_20Rnd_TR",
+"Mk207_762_20Rnd_IR"
 ]
