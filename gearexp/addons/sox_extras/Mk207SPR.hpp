@@ -4,6 +4,7 @@ class CfgAmmo
 	class B_338_Ball;
 	class B_127x108_APDS;
 	class rhsusf_B_300winmag;
+	class B_762x51_Ball;
 
 	class Mk207_SPR: B_556x45_Ball
 	{
@@ -76,6 +77,30 @@ class CfgAmmo
         ACE_muzzleVelocities[] = {847, 867, 877};
         ACE_barrelLengths[] = {508.0, 609.6, 660.4};
 	};
+	class Mk207_762: B_762x51_Ball
+	{
+        airFriction=-0.00085157;
+        caliber=1.8;
+        hit=30;
+        typicalSpeed=790;
+        ACE_caliber=7.823;
+        ACE_bulletLength=31.496;
+        ACE_bulletMass=11.34;
+        ACE_muzzleVelocityVariationSD=0.4;
+        ACE_ammoTempMuzzleVelocityShifts[]={-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+        ACE_ballisticCoefficients[]={0.243};
+        ACE_velocityBoundaries[]={};
+        ACE_standardAtmosphere="ICAO";
+        ACE_dragModel=7;
+        ACE_muzzleVelocities[]={750, 780, 790, 794};
+        ACE_barrelLengths[]={406.4, 508.0, 609.6, 660.4};
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+	};
+	class Mk207_762_IR: Mk207_762
+	{
+		nvgOnly = 1;
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_white";
+	};
 };
 
 class CfgMagazines
@@ -97,6 +122,7 @@ class CfgMagazines
 	class 10Rnd_338_Mag;
 	class ACE_10Rnd_127x99_AMAX_Mag;
 	class rhsusf_5Rnd_300winmag_xm2010;
+	class 20Rnd_762x51_Mag;
 
 	class Mk207_SPR_Mag: 30Rnd_556x45_Stanag
 	{
@@ -123,7 +149,7 @@ class CfgMagazines
 		author = "Socks";
 		ammo = "Mk207_SPR";
 		displayName = "5.56mm STANAG Mk207 SPR (Tracers)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 1;
@@ -133,7 +159,7 @@ class CfgMagazines
 		author = "Socks";
 		ammo = "Mk207_SPR";
 		displayName = "5.56mm STANAG Mk207 SPR (Tracers)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 1;
@@ -142,13 +168,13 @@ class CfgMagazines
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm STANAG Mk207 SPR (IR-DIM)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 	class Mk207_SPR_Mag_Sand_IR: Mk207_SPR_Mag_Sand_TR
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm STANAG Mk207 SPR (IR-DIM)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 
 	class Mk207_SPR_Steyr_Mag: ADFRC_30Rnd_aug
@@ -166,7 +192,7 @@ class CfgMagazines
 		author = "Socks";
 		ammo = "Mk207_SPR";
 		displayName = "5.56mm Steyr Mk207 SPR (Tracers)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 1;
@@ -175,7 +201,7 @@ class CfgMagazines
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm Steyr Mk207 SPR (IR-DIM)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 		picture = "\ADF_Weapons\adfrc_magazines\UI\gear_aug_mag_tir_ca.paa";
 	};
 
@@ -204,26 +230,26 @@ class CfgMagazines
 	class Mk207_SPR_PMAG_TR: Mk207_SPR_PMAG
 	{
 		displayName = "5.56mm PMAG Mk207 SPR (Tracers)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		tracersEvery = 1;
 	};
 	class Mk207_SPR_PMAG_Tan_TR: Mk207_SPR_PMAG_Tan
 	{
 		displayName = "5.56mm PMAG Mk207 SPR (Tracers)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		tracersEvery = 1;
 	};
 	class Mk207_SPR_PMAG_IR: Mk207_SPR_PMAG_TR
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm PMAG Mk207 SPR (IR-DIM)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 	class Mk207_SPR_PMAG_Tan_IR: Mk207_SPR_PMAG_Tan_TR
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm PMAG Mk207 SPR (IR-DIM)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 
 	class Mk207_SPR_100Rnd: ADFRC_100Rnd_556_Minimi
@@ -231,7 +257,7 @@ class CfgMagazines
 		author = "Socks";
 		ammo = "Mk207_SPR";
 		displayName = "5.56mm 100Rnd Mk207 SPR (Red 1:5)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 4;
@@ -240,14 +266,14 @@ class CfgMagazines
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm 100Rnd Mk207 SPR (IR 1:5)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 	class Mk207_SPR_200Rnd: ADFRC_200Rnd_556_Minimi
 	{
 		author = "Socks";
 		ammo = "Mk207_SPR";
 		displayName = "5.56mm 200Rnd Mk207 SPR (Red 1:5)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 4;
@@ -256,14 +282,14 @@ class CfgMagazines
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm 200Rnd Mk207 SPR (IR 1:5)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 	class Mk207_SPR_250Rnd: ADFRC_250Rnd_556_Minimi
 	{
 		author = "Socks";
 		ammo = "Mk207_SPR";
 		displayName = "5.56mm 250Rnd Mk207 SPR (Red 1:5)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 4;
@@ -272,7 +298,7 @@ class CfgMagazines
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm 250Rnd Mk207 SPR (IR 1:5)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 
 	class Mk207_SPR_100Rnd_Soft: rhsusf_100Rnd_556x45_M855_soft_pouch_coyote
@@ -280,7 +306,7 @@ class CfgMagazines
 		author = "Socks";
 		ammo = "Mk207_SPR";
 		displayName = "5.56mm 100Rnd Mk207 SPR (Red 1:5)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 4;
@@ -290,14 +316,14 @@ class CfgMagazines
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm 100Rnd Mk207 SPR (IR 1:5)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 	class Mk207_SPR_200Rnd_Soft: rhsusf_200Rnd_556x45_M855_soft_pouch_coyote
 	{
 		author = "Socks";
 		ammo = "Mk207_SPR";
 		displayName = "5.56mm 200Rnd Mk207 SPR (Red 1:5)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 4;
@@ -307,14 +333,14 @@ class CfgMagazines
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm 200Rnd Mk207 SPR (IR 1:5)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 	class Mk207_SPR_200Rnd_Box: rhsusf_200rnd_556x45_M855_box
 	{
 		author = "Socks";
 		ammo = "Mk207_SPR";
 		displayName = "5.56mm 200Rnd Mk207 SPR (Red 1:5)";
-		displayNameShort = "Mk207 SPR Tracer";
+		displayNameShort = "Mk207 SPR Red";
 		descriptionShort = "5.56mm Special Purpose Round";
 		initSpeed = 950;
 		tracersEvery = 4;
@@ -324,7 +350,7 @@ class CfgMagazines
 	{
 		ammo = "Mk207_SPR_IR";
 		displayName = "5.56mm 200Rnd Mk207 SPR (IR 1:5)";
-		displayNameShort = "Mk207 SPR IR-DIM";
+		displayNameShort = "Mk207 SPR IR";
 	};
 
 	class Mk207_300_5Rnd: rhsusf_5Rnd_300winmag_xm2010
@@ -353,6 +379,28 @@ class CfgMagazines
 		displayNameShort = "Mk207 APDS";
 		descriptionShort = ".50 BMG Special Purpose Round";
 		tracersEvery = 0;
+	};
+
+	class Mk207_762_20Rnd: 20Rnd_762x51_Mag
+	{
+		author = "Socks";
+		ammo = "Mk207_762";
+		displayName = "7.62mm 20Rnd Mag Mk207";
+		displayNameShort = "Mk207LR";
+		descriptionShort = "Mk207 Special Purpose Round";
+		tracersEvery = 0;
+	};
+	class Mk207_762_20Rnd_TR: Mk207_762_20Rnd
+	{
+		displayName = "7.62mm 20Rnd Mag Mk207 (Tracers)";
+		displayNameShort = "Mk207LR Red";
+		tracersEvery = 1;
+	};
+	class Mk207_762_20Rnd_IR: Mk207_762_20Rnd
+	{
+		displayName = "7.62mm 20Rnd Mag Mk207 (IR-DIM)";
+		displayNameShort = "Mk207LR IR";
+		tracersEvery = 1;
 	};
 };
 
@@ -452,6 +500,51 @@ class CfgMagazineWells
 		sox_extras[] =
 		{
 			"Mk207_127_10Rnd"
+		};
+	};
+	class CBA_762x51_AR10
+	{
+		sox_extras[] = 
+		{
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
+		};
+	};
+	class CBA_762x51_M14
+	{
+		sox_extras[] = 
+		{
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
+		};
+	};
+	class M14_762x51
+	{
+		sox_extras[] = 
+		{
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
+		};
+	};
+	class CBA_762x51_HK417
+	{
+		sox_extras[] = 
+		{
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
+		};
+	};
+	class CBA_762x51_SR25
+	{
+		sox_extras[] = 
+		{
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
 		};
 	};
 };
