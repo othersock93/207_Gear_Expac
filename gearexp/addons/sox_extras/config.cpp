@@ -152,6 +152,13 @@ class CfgGlasses
 		picture = "\ADF_Gear\adfrc_facewear\icons\TAN_CA.paa";
 		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
 	};
+	class skull_bala_a1: adfrc_facewear_Balaclava_blk_1
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "Balaclava (AMPU, Skull)";
+		picture = "\ADF_Gear\adfrc_facewear\icons\AMCU_CA.paa";
+		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_a_co.paa"};
+	};
 
 	class skull_bala_b2: adfrc_facewear_Balaclava_blk_2
 	{
@@ -173,6 +180,13 @@ class CfgGlasses
 		picture = "\ADF_Gear\adfrc_facewear\icons\TAN-Half_CA.paa";
 		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
 	};
+	class skull_bala_a2: adfrc_facewear_Balaclava_blk_2
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "Half Balaclava (AMPU, Skull)";
+		picture = "\ADF_Gear\adfrc_facewear\icons\AMCU-Half.paa";
+		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_a_co.paa"};
+	};
 
 	class skull_ess_b: adfrc_facewear_Bala_BLK_ess_1
 	{
@@ -192,6 +206,12 @@ class CfgGlasses
 		displayName = "ESS/Balaclava (Tan, Skull)";
 		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
 	};
+	class skull_ess_a: adfrc_facewear_Bala_BLK_ess_1
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "ESS/Balaclava (AMPU, Skull)";
+		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_a_co.paa"};
+	};
 
 	class skull_gator_b: adfrc_facewear_Bala_BLK_gatorz_1
 	{
@@ -210,6 +230,12 @@ class CfgGlasses
 		author = "Socks | ADF Re-Cut";
 		displayName = "Gatorz/Balaclava (Tan, Skull)";
 		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
+	};
+	class skull_gator_a: adfrc_facewear_Bala_BLK_gatorz_1
+	{
+		author = "Socks | ADF Re-Cut";
+		displayName = "Gatorz/Balaclava (AMPU, Skull)";
+		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_a_co.paa"};
 	};
 };
 
