@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"USASOC_PANEL_7"
+			"Assault_Pack"
 		};
 		weapons[]=
 		{};
@@ -19,7 +19,7 @@ class CfgPatches
 class CfgVehicles
 {
 	class B_AssaultPack_mcamo;
-	class USASOC_PANEL_7: B_AssaultPack_mcamo
+	class Assault_Pack: B_AssaultPack_mcamo
 	{
 		author="Mac n Socks";
 		scope=2;
