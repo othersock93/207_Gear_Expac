@@ -6,35 +6,35 @@ class CfgPatches
 		ammo[] = {};
 		units[] = 
 		{
-			"tfb_g3_base_v",
-			"tfb_g3_mc_g_v",
-			"tfb_g3_mc_r1_g_v",
-			"tfb_g3_mc_r2_g_v",
-			"tfb_g3_mc_v",
-			"tfb_g3_mc_r1_v",
-			"tfb_g3_mc_r2_v",
-			"tfb_g3_mc_np_g_v",
-			"tfb_g3_mc_r1_np_g_v",
-			"tfb_g3_mc_r2_np_g_v",
-			"tfb_g3_mc_np_v",
-			"tfb_g3_mc_r1_np_v",
-			"tfb_g3_mc_r2_np_v"
+			"207_g3_base_v",
+			"207_g3_mc_g_v",
+			"207_g3_mc_r1_g_v",
+			"207_g3_mc_r2_g_v",
+			"207_g3_mc_v",
+			"207_g3_mc_r1_v",
+			"207_g3_mc_r2_v",
+			"207_g3_mc_np_g_v",
+			"207_g3_mc_r1_np_g_v",
+			"207_g3_mc_r2_np_g_v",
+			"207_g3_mc_np_v",
+			"207_g3_mc_r1_np_v",
+			"207_g3_mc_r2_np_v"
 		};
 		weapons[] = 
 		{
-			"tfb_g3_base_w",
-			"tfb_g3_mc_g_w",
-			"tfb_g3_mc_r1_g_w",
-			"tfb_g3_mc_r2_g_w",
-			"tfb_g3_mc_w",
-			"tfb_g3_mc_r1_w",
-			"tfb_g3_mc_r2_w",
-			"tfb_g3_mc_np_g_w",
-			"tfb_g3_mc_r1_np_g_w",
-			"tfb_g3_mc_r2_np_g_w",
-			"tfb_g3_mc_np_w",
-			"tfb_g3_mc_r1_np_w",
-			"tfb_g3_mc_r2_np_w"
+			"207_g3_base_w",
+			"207_g3_mc_g_w",
+			"207_g3_mc_r1_g_w",
+			"207_g3_mc_r2_g_w",
+			"207_g3_mc_w",
+			"207_g3_mc_r1_w",
+			"207_g3_mc_r2_w",
+			"207_g3_mc_np_g_w",
+			"207_g3_mc_r1_np_g_w",
+			"207_g3_mc_r2_np_g_w",
+			"207_g3_mc_np_w",
+			"207_g3_mc_r1_np_w",
+			"207_g3_mc_r2_np_w"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = 
@@ -64,7 +64,7 @@ class XtdGearModels
 {
 	class CfgWeapons
 	{
-		class tfb_g3_u
+		class 207_g3_u
 		{
 			label = "Crye G3 Combat Dress";
 			author = "TFB";
