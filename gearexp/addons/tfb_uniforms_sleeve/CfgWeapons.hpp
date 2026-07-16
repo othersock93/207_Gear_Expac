@@ -169,7 +169,7 @@ class 207_g3_mc_r1_np_s_w: 207_g3_base_w
 };
 class 207_g3_mc_r2_np_s_w: 207_g3_base_w
 {
-	scope = 0;
+	scope = 2;
 	scopeArsenal = 2;
 	displayName = "Crye G3, 1/2 Roll [S] (207)";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
