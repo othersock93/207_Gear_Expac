@@ -1,6 +1,6 @@
 class B_Soldier_base_F;
 // gloves ///
-class tfb_g3_base_v: B_Soldier_base_F
+class 207_g3_base_v: B_Soldier_base_F
 {
 	scope = 0;
 	camouflage = 1;
@@ -8,18 +8,18 @@ class tfb_g3_base_v: B_Soldier_base_F
 	author="Mac n Socks";
 	model = "\tfb_uniforms\mesh\tfb_g3_g.p3d";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
-	uniformClass = "tfb_g3_mc_g_w";
+	uniformClass = "207_g3_mc_g_w";
 	hiddenSelections[] = {};
 	hiddenSelectionsTextures[] = {};
 	vehicleClass = "Men";
 	modelSides[] = {3,2,1,0};
 };
-class tfb_g3_mc_r1_g_s_v: tfb_g3_base_v
+class 207_g3_mc_r1_g_s_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r1_g_s.p3d";
-	uniformClass = "tfb_g3_mc_r1_g_s_w";
+	uniformClass = "207_g3_mc_r1_g_s_w";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
@@ -46,12 +46,12 @@ class tfb_g3_mc_r1_g_s_v: tfb_g3_base_v
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};
 };
-class tfb_g3_mc_r2_g_s_v: tfb_g3_base_v
+class 207_g3_mc_r2_g_s_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r2_g_s.p3d";
-	uniformClass = "tfb_g3_mc_r2_g_s_w";
+	uniformClass = "207_g3_mc_r2_g_s_w";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	hiddenSelections[] = 
 	{
@@ -79,12 +79,12 @@ class tfb_g3_mc_r2_g_s_v: tfb_g3_base_v
 	};
 };
 /// hands ///
-class tfb_g3_mc_r1_s_v: tfb_g3_base_v
+class 207_g3_mc_r1_s_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r1_s.p3d";
-	uniformClass = "tfb_g3_mc_r1_g_s_w";
+	uniformClass = "207_g3_mc_r1_g_s_w";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
@@ -111,12 +111,12 @@ class tfb_g3_mc_r1_s_v: tfb_g3_base_v
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};
 };
-class tfb_g3_mc_r2_s_v: tfb_g3_base_v
+class 207_g3_mc_r2_s_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r2_s.p3d";
-	uniformClass = "tfb_g3_mc_r3_g_s_w";
+	uniformClass = "207_g3_mc_r3_g_s_w";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	hiddenSelections[] = 
 	{
@@ -147,12 +147,12 @@ class tfb_g3_mc_r2_s_v: tfb_g3_base_v
 /////////////////NP//////////////////////////
 /////////////////////////////////////////////
 // gloves ///
-class tfb_g3_mc_r1_np_g_s_v: tfb_g3_base_v
+class 207_g3_mc_r1_np_g_s_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r1_g_s.p3d";
-	uniformClass = "tfb_g3_mc_r1_g_s_w";
+	uniformClass = "207_g3_mc_r1_g_s_w";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
@@ -179,12 +179,12 @@ class tfb_g3_mc_r1_np_g_s_v: tfb_g3_base_v
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};
 };
-class tfb_g3_mc_r2_np_g_s_v: tfb_g3_base_v
+class 207_g3_mc_r2_np_g_s_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r2_g_s.p3d";
-	uniformClass = "tfb_g3_mc_r2_g_s_w";
+	uniformClass = "207_g3_mc_r2_g_s_w";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	hiddenSelections[] = 
 	{
@@ -212,12 +212,12 @@ class tfb_g3_mc_r2_np_g_s_v: tfb_g3_base_v
 	};
 };
 /// hands ///
-class tfb_g3_mc_r1_np_s_v: tfb_g3_base_v
+class 207_g3_mc_r1_np_s_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r1_s.p3d";
-	uniformClass = "tfb_g3_mc_r1_np_s_w";
+	uniformClass = "207_g3_mc_r1_np_s_w";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
 	{
@@ -244,12 +244,12 @@ class tfb_g3_mc_r1_np_s_v: tfb_g3_base_v
 		"tfb_uniforms\tex\patch\207_CO.paa"
 	};
 };
-class tfb_g3_mc_r2_np_s_v: tfb_g3_base_v
+class 207_g3_mc_r2_np_s_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
 	model = "\tfb_uniforms_sleeve\mesh\tfb_g3_r2_s.p3d";
-	uniformClass = "tfb_g3_mc_r2_np_s_w";
+	uniformClass = "207_g3_mc_r2_np_s_w";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	hiddenSelections[] = 
 	{

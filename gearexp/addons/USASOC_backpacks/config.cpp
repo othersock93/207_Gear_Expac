@@ -9,7 +9,7 @@ class CfgPatches
 			"Medic_Pack",
 			"JTAC_Pack",
 			"MG_Pack",
-			"jpc_panel_2"
+			"Sapper_Pack"
 		};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -280,7 +280,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class jpc_panel_2: Bag_Base
+	class Sapper_Pack: Bag_Base
 	{
 		author="Mac n Socks";
 		scope=2;
