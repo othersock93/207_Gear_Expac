@@ -2,7 +2,7 @@ class ItemCore;
 class UniformItem;
 class Uniform_Base;
 /// gloves ///
-class tfb_g3_base_w: Uniform_Base
+class 207_g3_base_w: Uniform_Base
 {
 	scope = 0;
 	scopeArsenal = 0;
@@ -14,21 +14,21 @@ class tfb_g3_base_w: Uniform_Base
 	hiddenSelectionsTextures[] = {"tfb_uniforms\tex\g3_top_mc_co.paa"};
 	class ItemInfo: UniformItem
 	{
-		uniformClass = "tfb_g3_mc_g_v";
+		uniformClass = "207_g3_mc_g_v";
 		uniformModel = "-";
 		containerClass = "Supply40";
 		mass = 40;
 	};
 	class XtdGearInfo
 	{
-		model = "tfb_g3_u";
+		model = "207_g3_u";
 		sleeves = "full";
 		gloves = "on";
 		pads = "on";
 		arms = "off";
 	};
 };
-class tfb_g3_mc_r1_g_s_w: tfb_g3_base_w
+class 207_g3_mc_r1_g_s_w: 207_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
@@ -36,18 +36,18 @@ class tfb_g3_mc_r1_g_s_w: tfb_g3_base_w
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
-		uniformClass = "tfb_g3_mc_r1_g_s_v";
+		uniformClass = "207_g3_mc_r1_g_s_v";
 	};
 	class XtdGearInfo
 	{
-		model = "tfb_g3_u";
+		model = "207_g3_u";
 		sleeves = "quarter";
 		gloves = "on";
 		pads = "on";
 		arms = "on";
 	};
 };
-class tfb_g3_mc_r2_g_s_w: tfb_g3_base_w
+class 207_g3_mc_r2_g_s_w: 207_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
@@ -55,11 +55,11 @@ class tfb_g3_mc_r2_g_s_w: tfb_g3_base_w
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
-		uniformClass = "tfb_g3_mc_r2_g_s_v";
+		uniformClass = "207_g3_mc_r2_g_s_v";
 	};
 	class XtdGearInfo
 	{
-		model = "tfb_g3_u";
+		model = "207_g3_u";
 		sleeves = "half";
 		gloves = "on";
 		pads = "on";
@@ -67,7 +67,7 @@ class tfb_g3_mc_r2_g_s_w: tfb_g3_base_w
 	};
 };
 /// hands ///
-class tfb_g3_mc_r1_s_w: tfb_g3_base_w
+class 207_g3_mc_r1_s_w: 207_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
@@ -75,18 +75,18 @@ class tfb_g3_mc_r1_s_w: tfb_g3_base_w
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
-		uniformClass = "tfb_g3_mc_r1_s_v";
+		uniformClass = "207_g3_mc_r1_s_v";
 	};
 	class XtdGearInfo
 	{
-		model = "tfb_g3_u";
+		model = "207_g3_u";
 		sleeves = "quarter";
 		gloves = "off";
 		pads = "on";
 		arms = "on";
 	};
 };
-class tfb_g3_mc_r2_s_w: tfb_g3_base_w
+class 207_g3_mc_r2_s_w: 207_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
@@ -94,11 +94,11 @@ class tfb_g3_mc_r2_s_w: tfb_g3_base_w
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
-		uniformClass = "tfb_g3_mc_r2_s_v";
+		uniformClass = "207_g3_mc_r2_s_v";
 	};
 	class XtdGearInfo
 	{
-		model = "tfb_g3_u";
+		model = "207_g3_u";
 		sleeves = "half";
 		gloves = "off";
 		pads = "on";
@@ -109,7 +109,7 @@ class tfb_g3_mc_r2_s_w: tfb_g3_base_w
 /////////////////NP//////////////////////////
 /////////////////////////////////////////////
 /// gloves ///
-class tfb_g3_mc_r1_np_g_s_w: tfb_g3_base_w
+class 207_g3_mc_r1_np_g_s_w: 207_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
@@ -117,18 +117,18 @@ class tfb_g3_mc_r1_np_g_s_w: tfb_g3_base_w
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
-		uniformClass = "tfb_g3_mc_r1_np_g_s_v";
+		uniformClass = "207_g3_mc_r1_np_g_s_v";
 	};
 	class XtdGearInfo
 	{
-		model = "tfb_g3_u";
+		model = "207_g3_u";
 		sleeves = "quarter";
 		gloves = "on";
 		pads = "off";
 		arms = "on";
 	};
 };
-class tfb_g3_mc_r2_np_g_s_w: tfb_g3_base_w
+class 207_g3_mc_r2_np_g_s_w: 207_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
@@ -136,11 +136,11 @@ class tfb_g3_mc_r2_np_g_s_w: tfb_g3_base_w
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
-		uniformClass = "tfb_g3_mc_r2_np_g_s_v";
+		uniformClass = "207_g3_mc_r2_np_g_s_v";
 	};
 	class XtdGearInfo
 	{
-		model = "tfb_g3_u";
+		model = "207_g3_u";
 		sleeves = "half";
 		gloves = "on";
 		pads = "off";
@@ -148,7 +148,7 @@ class tfb_g3_mc_r2_np_g_s_w: tfb_g3_base_w
 	};
 };
 /// hands ///
-class tfb_g3_mc_r1_np_s_w: tfb_g3_base_w
+class 207_g3_mc_r1_np_s_w: 207_g3_base_w
 {
 	scope = 2;
 	scopeArsenal = 2;
@@ -156,18 +156,18 @@ class tfb_g3_mc_r1_np_s_w: tfb_g3_base_w
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	class ItemInfo: ItemInfo
 	{
-		uniformClass = "tfb_g3_mc_r1_np_s_v";
+		uniformClass = "207_g3_mc_r1_np_s_v";
 	};
 	class XtdGearInfo
 	{
-		model = "tfb_g3_u";
+		model = "207_g3_u";
 		sleeves = "quarter";
 		gloves = "off";
 		pads = "off";
 		arms = "on";
 	};
 };
-class tfb_g3_mc_r2_np_s_w: tfb_g3_base_w
+class 207_g3_mc_r2_np_s_w: 207_g3_base_w
 {
 	scope = 0;
 	scopeArsenal = 2;
@@ -175,11 +175,11 @@ class tfb_g3_mc_r2_np_s_w: tfb_g3_base_w
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	class ItemInfo: ItemInfo
 	{
-		uniformClass = "tfb_g3_mc_r2_np_s_v";
+		uniformClass = "207_g3_mc_r2_np_s_v";
 	};
 	class XtdGearInfo
 	{
-		model = "tfb_g3_u";
+		model = "207_g3_u";
 		sleeves = "half";
 		gloves = "off";
 		pads = "off";
