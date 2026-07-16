@@ -6,7 +6,7 @@ class 207_g3_base_v: B_Soldier_base_F
 	camouflage = 1;
 	scopeArsenal = 0;
 	author="Mac n Socks";
-	model = "tfb_uniforms\mesh\207_g3_g.p3d";
+	model = "tfb_uniforms\mesh\tfb_g3_g.p3d";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	uniformClass = "207_g3_mc_g_w";
 	hiddenSelections[] = {};
@@ -20,7 +20,7 @@ class 207_g3_mc_g_v: 207_g3_base_v
 	scopeArsenal = 2;
 	camouflage = 1;
 	author="Mac n Socks";
-	model = "\tfb_uniforms\mesh\207_g3_g.p3d";
+	model = "\tfb_uniforms\mesh\tfb_g3_g.p3d";
 	uniformClass = "207_g3_mc_g_w";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
@@ -50,7 +50,7 @@ class 207_g3_mc_r1_g_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
-	model = "\tfb_uniforms\mesh\207_g3_r1_g.p3d";
+	model = "\tfb_uniforms\mesh\tfb_g3_r1_g.p3d";
 	uniformClass = "207_g3_mc_r1_g_w";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
@@ -80,7 +80,7 @@ class 207_g3_mc_r2_g_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
-	model = "\tfb_uniforms\mesh\207_g3_r2_g.p3d";
+	model = "\tfb_uniforms\mesh\tfb_g3_r2_g.p3d";
 	uniformClass = "207_g3_mc_r2_g_w";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	hiddenSelections[] = 
@@ -111,7 +111,7 @@ class 207_g3_mc_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
-	model = "\tfb_uniforms\mesh\207_g3.p3d";
+	model = "\tfb_uniforms\mesh\tfb_g3.p3d";
 	uniformClass = "207_g3_mc_g_w";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
@@ -141,7 +141,7 @@ class 207_g3_mc_r1_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
-	model = "\tfb_uniforms\mesh\207_g3_r1.p3d";
+	model = "\tfb_uniforms\mesh\tfb_g3_r1.p3d";
 	uniformClass = "207_g3_mc_r1_g_w";
 	picture = "\tfb_uniforms\ui\g3_mc_ca.paa";
 	hiddenSelections[] = 
@@ -171,7 +171,7 @@ class 207_g3_mc_r2_v: 207_g3_base_v
 {
 	scope = 1;
 	scopeArsenal = 2;
-	model = "\tfb_uniforms\mesh\207_g3_r2.p3d";
+	model = "\tfb_uniforms\mesh\tfb_g3_r2.p3d";
 	uniformClass = "207_g3_mc_r3_g_w";
 	picture = "\tfb_uniforms\ui\uni1_ca.paa";
 	hiddenSelections[] = 
