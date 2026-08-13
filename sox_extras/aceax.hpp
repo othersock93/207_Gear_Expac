@@ -188,22 +188,22 @@
 				hiddenSelection = "Camo";
 				class AMCU
 				{
-					texture = "\sox_extras\tx\207amc_uni.paa";
+					texture = "\sox_extras\uni\tx\207amc_uni.paa";
 					image = "\sox_extras\ui\amc_co.paa";
 				};
 				class AMPU
 				{
-					texture = "\sox_extras\tx\207amp_uni.paa";
+					texture = "\sox_extras\uni\tx\207amp_uni.paa";
 					image = "\sox_extras\ui\amp_co.paa";
 				};
 				class AMCS
 				{
-					texture = "\sox_extras\tx\207ams_uni.paa";
+					texture = "\sox_extras\uni\tx\207ams_uni.paa";
 					image = "\sox_extras\ui\ams_co.paa";
 				};
 				class AMCT
 				{
-					texture = "\sox_extras\tx\207amt_uni.paa";
+					texture = "\sox_extras\uni\tx\207amt_uni.paa";
 					image = "\sox_extras\ui\amt_co.paa";
 				};
 			};

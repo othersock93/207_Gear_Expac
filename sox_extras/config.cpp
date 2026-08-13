@@ -12,27 +12,28 @@ class CfgPatches
 		weapons[]=
 		{
 			"207_amcu_RU",
-			"207_amcu_U"
+			"207_amcu_U",
+			"207_ampu_boonie"
 		};
-		requiredVersion=1;
+		requiredVersion=2;
 		requiredAddons[]=
 		{
 			"A3_Characters_F",
+			"A3_Characters_F_EPB",
+			"A3_Weapons_F",
+			"A3_Weapons_F_Mark",
 			"ADF_Core",
 			"adfrc_facewear",
 			"adfrc_helmets",
-			"Extended_EventHandlers",
-			"A3_Weapons_F",
-			"A3_Weapons_F_Mark",
 			"adfrc_magazines",
+			"Extended_EventHandlers",
+			"female3_ICEMAN",
+			"patches",
 			"rhs_weapons",
-			"rhs_c_weapons",
-			"patches"
+			"rhs_c_weapons"
 		};
 	};
 };
-
-#include "Mk207SPR.hpp"
 
 class XtdGearModels
 {
@@ -41,202 +42,288 @@ class XtdGearModels
 
 class cfgVehicles
 {
-	class B_Soldier_base_F;
-
-	class 207_amcu: B_Soldier_base_F
-	{
-		author = "Socks";
-		vehicleClass = "Men";
-		scope = 1;
-		displayName = "Crye G3 Combat Fatigues (AMCU)";
-		picture = "\sox_extras\ui\sleeve_ca.paa";
-		identityTypes[] = {"Head_NATO", "G_NATO_default"};
-		modelSides[] = {3,2,1,0};
-		model = "\A3\characters_f\BLUFOR\b_soldier_01.p3d";
-		uniformClass = "207_amcu_U";
-		hiddenSelections[] = {"Camo","Insignia"};
-		hiddenSelectionsTextures[] = {"sox_extras\tx\207amc_uni.paa"};
-	};
-	class 207_amcu_R: B_Soldier_base_F
-	{
-		author = "Socks";
-		vehicleClass = "Men";
-		scope = 1;
-		displayName = "Crye G3 Combat Fatigues (AMCU/Rolled)";
-		picture = "\sox_extras\ui\roll_ca.paa";
-		identityTypes[] = {"Head_NATO", "G_NATO_default"};
-		modelSides[] = {3,2,1,0};
-		model = "\A3\characters_f\BLUFOR\b_soldier_03.p3d";
-		uniformClass = "207_amcu_RU";
-		hiddenSelections[] = {"Camo","Insignia"};
-		hiddenSelectionsTextures[] = {"sox_extras\tx\207amc_uni.paa"};
-	};
+	#include "uni\uniforms_v.hpp"
+//	#include "bags\bags.hpp"
 };
 
 class cfgWeapons
 {
-	#include "wendy.hpp"
-	class Uniform_Base;
-	class UniformItem;
+	#include "uni\uniforms_w.hpp"
+	#include "headgear\wendy.hpp"
+//	#include "headgear\hats.hpp"
+//	#include "vests\vests.hpp"
+	#include "tweaks\SMA_Fix.hpp"
 
-	class 207_amcu_U: Uniform_Base 
-	{ 
-		scope = 2;
+	class H_Booniehat_khk_hs;
+
+	class 207_ampu_boonie: H_Booniehat_khk_hs
+	{
 		author = "Socks";
-		displayName = "Crye G3 Combat Fatigues (207)";
-		picture = "\sox_extras\ui\sleeve_ca.paa";
-		model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
+		scope = 2;
+		displayName = "Booniehat w/ Comms (AMP)";
+		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		picture = "\A3\Characters_F\data\ui\icon_h_booniehat_mcamo_ca.paa";
 		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\sox_extras\tx\amc_suitpack.paa"};
-		class ItemInfo: UniformItem 
+		hiddenSelectionsTextures[] = {"\sox_extras\headgear\tx\amp_boonie_co.paa"};
+	};
+};
+
+class CfgAmmo
+{
+	#include "tweaks\Mk207_Ammo.hpp"
+};
+
+class CfgMagazines
+{
+	#include "tweaks\Mk207_Mags.hpp"
+};
+
+class CfgMagazineWells
+{
+	class STANAG_556x45
+	{
+		sox_extras[] = 
 		{
-			uniformModel = "-";
-			uniformClass = "207_amcu"; 
-			containerClass = "Supply40";
-			mass = 40;
+			"Mk207_SPR_Mag",
+			"Mk207_SPR_Mag_TR",
+			"Mk207_SPR_Mag_IR",
+			"Mk207_SPR_Mag_Sand",
+			"Mk207_SPR_Mag_Sand_TR",
+			"Mk207_SPR_Mag_Sand_IR",
+			"Mk207_SPR_PMAG",
+			"Mk207_SPR_PMAG_Tan",
+			"Mk207_SPR_PMAG_TR",
+			"Mk207_SPR_PMAG_Tan_TR",
+			"Mk207_SPR_PMAG_IR",
+			"Mk207_SPR_PMAG_Tan_IR"
 		};
-		class XtdGearInfo
+		SMA_mags[] = 
+        {
+            "SMA_30Rnd_556x45_M855A1",
+            "SMA_30Rnd_556x45_M855A1_Tracer",
+            "SMA_30Rnd_556x45_M855A1_IR",
+            "SMA_30Rnd_556x45_Mk318",
+            "SMA_30Rnd_556x45_Mk318_Tracer",
+            "SMA_30Rnd_556x45_Mk318_IR",
+            "SMA_30Rnd_556x45_Mk262",
+            "SMA_30Rnd_556x45_Mk262_Tracer",
+            "SMA_30Rnd_556x45_Mk262_IR"
+        };
+	};
+	class CBA_762x51_HK417
+	{
+		sox_extras[] = 
 		{
-			model = "g3_207";
-			sleeves = "full";
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
+		};
+		SMA_mags[] = 
+        {
+            "SMA_20Rnd_762x51mm_M80A1_EPR",
+            "SMA_20Rnd_762x51mm_M80A1_EPR_Tracer",
+            "SMA_20Rnd_762x51mm_M80A1_EPR_IR",
+            "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range",
+            "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_Tracer",
+            "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_IR",
+            "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic",
+            "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_Tracer",
+            "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_IR"
+        };
+	};
+////// SOX_EXTRAS Mk207 //////
+	class CBA_556x45_STANAG
+	{
+		sox_extras[] = 
+		{
+			"Mk207_SPR_Mag",
+			"Mk207_SPR_Mag_TR",
+			"Mk207_SPR_Mag_IR",
+			"Mk207_SPR_Mag_Sand",
+			"Mk207_SPR_Mag_Sand_TR",
+			"Mk207_SPR_Mag_Sand_IR"
 		};
 	};
-	class 207_amcu_RU: Uniform_Base 
-	{ 
-		scope = 2;
-		author = "Socks";
-		displayName = "Crye G3 Combat Fatigues (207/Rolled)";
-		picture = "\sox_extras\ui\roll_ca.paa";
-		model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
-		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\sox_extras\tx\amc_suitpack.paa"};
-		class ItemInfo: UniformItem 
+	class CBA_556x45_SCAR_EGLM
+	{
+		sox_extras[] = 
 		{
-			uniformModel = "-";
-			uniformClass = "207_amcu_R"; 
-			containerClass = "Supply40";
-			mass = 40;
-		};
-		class XtdGearInfo
-		{
-			model = "g3_207";
-			sleeves = "roll";
+			"Mk207_SPR_Mag",
+			"Mk207_SPR_Mag_TR",
+			"Mk207_SPR_Mag_IR",
+			"Mk207_SPR_Mag_Sand",
+			"Mk207_SPR_Mag_Sand_TR",
+			"Mk207_SPR_Mag_Sand_IR",
+			"Mk207_SPR_PMAG",
+			"Mk207_SPR_PMAG_Tan",
+			"Mk207_SPR_PMAG_TR",
+			"Mk207_SPR_PMAG_Tan_TR",
+			"Mk207_SPR_PMAG_IR",
+			"Mk207_SPR_PMAG_Tan_IR"
 		};
 	};
+	class CBA_556x45_STEYR
+	{
+		sox_extras[] = 
+		{
+			"Mk207_SPR_Steyr_Mag",
+			"Mk207_SPR_Steyr_Mag_TR",
+			"Mk207_SPR_Steyr_Mag_IR"
+		};
+	};
+	class CBA_556x45_MINIMI
+	{
+		sox_extras[] = 
+		{
+			"Mk207_SPR_100Rnd",
+			"Mk207_SPR_100Rnd_IR",
+			"Mk207_SPR_200Rnd",
+			"Mk207_SPR_200Rnd_IR",
+			"Mk207_SPR_250Rnd",
+			"Mk207_SPR_250Rnd_IR",
+			"Mk207_SPR_100Rnd_Soft",
+			"Mk207_SPR_100Rnd_Soft_IR",
+			"Mk207_SPR_200Rnd_Soft",
+			"Mk207_SPR_200Rnd_Soft_IR",
+			"Mk207_SPR_200Rnd_Box",
+			"Mk207_SPR_200Rnd_Box_IR"
+		};
+	};
+	class CBA_762x51_AR10
+	{
+		sox_extras[] = 
+		{
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
+		};
+	};
+	class CBA_762x51_M14
+	{
+		sox_extras[] = 
+		{
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
+		};
+	};
+	class M14_762x51
+	{
+		sox_extras[] = 
+		{
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
+		};
+	};
+	class CBA_762x51_SR25
+	{
+		sox_extras[] = 
+		{
+			"Mk207_762_20Rnd",
+			"Mk207_762_20Rnd_TR",
+			"Mk207_762_20Rnd_IR"
+		};
+	};
+	class CBA_300WM_AICS
+	{
+		sox_extras[] =
+		{
+			"Mk207_300_5Rnd"
+		};
+	};
+	class MAR10_338
+	{
+		sox_extras[] =
+		{
+			"Mk207_338_10Rnd"
+		};
+	};
+	class CBA_50BMG_M107
+	{
+		sox_extras[] =
+		{
+			"Mk207_127_10Rnd"
+		};
+	};
+////// SMA FIXES //////
+	class CBA_68SPC_STANAG
+	{
+		SMA_mags[] = 
+        {
+            "SMA_30Rnd_68x43_SPC_FMJ",
+            "SMA_30Rnd_68x43_SPC_FMJ_Tracer",
+            "SMA_30Rnd_68x43_SPC_FMJ_IR",
+            "SMA_30Rnd_68x43_BT",
+            "SMA_30Rnd_68x43_BT_Tracer",
+            "SMA_30Rnd_68x43_BT_IR",
+            "SMA_30Rnd_68x43_sub",
+            "SMA_30Rnd_68x43_sub_Tracer",
+            "SMA_30Rnd_68x43_sub_IR"
+        };
+	};
+	class CBA_300BLK_STANAG
+	{
+		SMA_mags[] = 
+        {
+            "SMA_30Rnd_762x35_BLK_EPR",
+            "SMA_30Rnd_762x35_SS"
+        };
+	};
+	class CBA_762x51_LINKS
+	{
+		SMA_mags[] = 
+        {
+            "SMA_150Rnd_762_M80A1",
+            "SMA_150Rnd_762_M80A1_Tracer",
+            "SMA_150Rnd_762_M80A1_Mixed"
+        };
+	};
+	class CBA_762x51_SCAR
+	{
+		SMA_mags[] = 
+        {
+            "SMA_20Rnd_762x51mm_M80A1_EPR",
+            "SMA_20Rnd_762x51mm_M80A1_EPR_Tracer",
+            "SMA_20Rnd_762x51mm_M80A1_EPR_IR",
+            "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range",
+            "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_Tracer",
+            "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_IR",
+            "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic",
+            "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_Tracer",
+            "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_IR"
+        };
+	};
+	class CBA_762x51_SCAR_EGLM
+	{
+		SMA_mags[] = 
+        {
+            "SMA_20Rnd_762x51mm_M80A1_EPR",
+            "SMA_20Rnd_762x51mm_M80A1_EPR_Tracer",
+            "SMA_20Rnd_762x51mm_M80A1_EPR_IR",
+            "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range",
+            "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_Tracer",
+            "SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_IR",
+            "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic",
+            "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_Tracer",
+            "SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_IR"
+        };
+	};
+};
+
+class CfgFaces
+{
+//	#include "faces\fem_faces.hpp"
+};
+
+class CfgHeads
+{
+//	#include "faces\fem_heads.hpp"
 };
 
 class CfgGlasses
 {
-	class adfrc_facewear_Balaclava_blk_1;
-	class adfrc_facewear_Balaclava_blk_2;
-	class adfrc_facewear_Bala_BLK_ess_1;
-	class adfrc_facewear_Bala_BLK_gatorz_1;
-
-	class skull_bala_b1: adfrc_facewear_Balaclava_blk_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Balaclava (Black, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_b_co.paa"};
-	};
-	class skull_bala_o1: adfrc_facewear_Balaclava_blk_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Balaclava (Olive, Skull)";
-		picture = "\ADF_Gear\adfrc_facewear\icons\OLIVE_CA.paa";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_o_co.paa"};
-	};
-	class skull_bala_t1: adfrc_facewear_Balaclava_blk_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Balaclava (Tan, Skull)";
-		picture = "\ADF_Gear\adfrc_facewear\icons\TAN_CA.paa";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
-	};
-	class skull_bala_a1: adfrc_facewear_Balaclava_blk_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Balaclava (AMPU, Skull)";
-		picture = "\ADF_Gear\adfrc_facewear\icons\AMCU_CA.paa";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_a_co.paa"};
-	};
-
-	class skull_bala_b2: adfrc_facewear_Balaclava_blk_2
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Half Balaclava (Black, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_b_co.paa"};
-	};
-	class skull_bala_o2: adfrc_facewear_Balaclava_blk_2
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Half Balaclava (Olive, Skull)";
-		picture = "\ADF_Gear\adfrc_facewear\icons\OLIVE-Half_CA.paa";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_o_co.paa"};
-	};
-	class skull_bala_t2: adfrc_facewear_Balaclava_blk_2
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Half Balaclava (Tan, Skull)";
-		picture = "\ADF_Gear\adfrc_facewear\icons\TAN-Half_CA.paa";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
-	};
-	class skull_bala_a2: adfrc_facewear_Balaclava_blk_2
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Half Balaclava (AMPU, Skull)";
-		picture = "\ADF_Gear\adfrc_facewear\icons\AMCU-Half.paa";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_a_co.paa"};
-	};
-
-	class skull_ess_b: adfrc_facewear_Bala_BLK_ess_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "ESS/Balaclava (Black, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_b_co.paa"};
-	};
-	class skull_ess_o: adfrc_facewear_Bala_BLK_ess_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "ESS/Balaclava (Olive, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_o_co.paa"};
-	};
-	class skull_ess_t: adfrc_facewear_Bala_BLK_ess_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "ESS/Balaclava (Tan, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
-	};
-	class skull_ess_a: adfrc_facewear_Bala_BLK_ess_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "ESS/Balaclava (AMPU, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_a_co.paa"};
-	};
-
-	class skull_gator_b: adfrc_facewear_Bala_BLK_gatorz_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Gatorz/Balaclava (Black, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_b_co.paa"};
-	};
-	class skull_gator_o: adfrc_facewear_Bala_BLK_gatorz_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Gatorz/Balaclava (Olive, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_o_co.paa"};
-	};
-	class skull_gator_t: adfrc_facewear_Bala_BLK_gatorz_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Gatorz/Balaclava (Tan, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_t_co.paa"};
-	};
-	class skull_gator_a: adfrc_facewear_Bala_BLK_gatorz_1
-	{
-		author = "Socks | ADF Re-Cut";
-		displayName = "Gatorz/Balaclava (AMPU, Skull)";
-		hiddenSelectionsTextures[] = {"sox_extras\tx\skull_a_co.paa"};
-	};
+	#include "glasses\facemasks.hpp"
 };
 
 class CfgUnitInsignia
