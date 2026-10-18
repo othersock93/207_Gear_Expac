@@ -273,6 +273,16 @@
 		descriptionShort = ".50 BMG Special Purpose Round";
 		tracersEvery = 0;
 	};
+	class Mk207_127_HE_10Rnd: ACE_10Rnd_127x99_AMAX_Mag
+	{
+		author = "Socks";
+		ammo = "Mk207_127_HE";
+		displayName = "10Rnd Mk207 HEIAP";
+		displayNameShort = "Mk207 HEIAP";
+		descriptionShort = ".50 BMG HEIAP";
+		tracersEvery = 1;
+		mass = 42
+	};
 
 	class Mk207_762_20Rnd: 20Rnd_762x51_Mag
 	{

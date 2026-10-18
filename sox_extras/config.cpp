@@ -1,3 +1,4 @@
+#include "BIS_AddonInfo.hpp"
 #define _ARMA_
 
 class CfgPatches
@@ -28,9 +29,10 @@ class CfgPatches
 			"adfrc_magazines",
 			"Extended_EventHandlers",
 			"female3_ICEMAN",
+			"mas_aus_lite_common",
 			"patches",
-			"rhs_weapons",
-			"rhs_c_weapons"
+			"rhsusf_weapons",
+			"rhsusf_c_weapons"
 		};
 	};
 };
@@ -243,7 +245,8 @@ class CfgMagazineWells
 	{
 		sox_extras[] =
 		{
-			"Mk207_127_10Rnd"
+			"Mk207_127_10Rnd",
+			"Mk207_127_HE_10Rnd"
 		};
 	};
 ////// SMA FIXES //////
