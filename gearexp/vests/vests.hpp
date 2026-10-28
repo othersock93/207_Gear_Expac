@@ -116,9 +116,9 @@
 			"\gearexp\vests\tx\jpc_main_amc_co.paa",
 			"\gearexp\vests\tx\material_2_amc_co.paa",
 			"\gearexp\vests\tx\mp_otter_ar_pouch_amc2_co.paa",
-			"\gearexp\vests\tx\blwout_amc.paa.paa",
+			"\gearexp\vests\tx\blwout_amc.paa",
 			"\gearexp\vests\tx\holster_amc.paa",
-			"\gearexp\vests\tx\gppouch_amc.paa",
+			"\gearexp\vests\tx\gppouch1_amc.paa",
 			"\gearexp\vests\tx\kywi_amc_co.paa",
 			"\gearexp\vests\tx\ronin_belt_amc3.paa",
 			"\gearexp\vests\tx\JPC2D_amc_co.paa",
@@ -207,9 +207,9 @@
 			"\gearexp\vests\tx\jpc_cummerbund_amc_co.paa",
 			"\gearexp\vests\tx\jpc_main_amc_co.paa",
 			"\gearexp\vests\tx\material_2_amc_co.paa",
-			"\gearexp\vests\tx\blwout_amc.paa.paa",
+			"\gearexp\vests\tx\blwout_amc.paa",
 			"\gearexp\vests\tx\holster_amc.paa",
-			"\gearexp\vests\tx\gppouch_amc.paa",
+			"\gearexp\vests\tx\gppouch1_amc.paa",
 			"\gearexp\vests\tx\kywi_amc_co.paa",
 			"\gearexp\vests\tx\ronin_belt_amc.paa",
 			"\gearexp\vests\tx\C_fastmagpouch_2_amc2_co.paa",
@@ -300,7 +300,7 @@
 			"\gearexp\vests\tx\jpc_cummerbund_amc_co.paa",
 			"\gearexp\vests\tx\jpc_main_amc_co.paa",
 			"\gearexp\vests\tx\mp_otter_ar_pouch_amc2_co.paa",
-			"\gearexp\vests\tx\blwout_amc.paa.paa",
+			"\gearexp\vests\tx\blwout_amc.paa",
 			"\gearexp\vests\tx\holster_amc.paa",
 			"\gearexp\vests\tx\kywi_amc_co.paa",
 			"\gearexp\vests\tx\C_MG_Pouch_RG_2_co.paa",
@@ -389,7 +389,7 @@
 			"\gearexp\vests\tx\avs_b_amc_co.paa",
 			"\gearexp\vests\tx\jpc_cummerbund_amc_co.paa",
 			"\gearexp\vests\tx\jpc_main_amc_co.paa",
-			"\gearexp\vests\tx\blwout_amc.paa.paa",
+			"\gearexp\vests\tx\blwout_amc.paa",
 			"\gearexp\vests\tx\holster_amc.paa",
 			"\gearexp\vests\tx\kywi_amc_co.paa",
 			"\gearexp\vests\tx\C_MG_Pouch_RG_2_co.paa",
@@ -548,7 +548,7 @@
 			"\gearexp\vests\tx\jpc_main_amc_co.paa",
 			"\gearexp\vests\tx\material_2_amc_co.paa",
 			"\gearexp\vests\tx\mp_otter_ar_pouch_amc2_co.paa",
-			"\gearexp\vests\tx\gppouch_amc.paa",
+			"\gearexp\vests\tx\gppouch1_amc.paa",
 			"\gearexp\vests\tx\JPC2D_amc_co.paa"
 		};
 		class ItemInfo: VestItem
@@ -622,7 +622,7 @@
 			"\gearexp\vests\tx\jpc_cummerbund_amc_co.paa",
 			"\gearexp\vests\tx\jpc_main_amc_co.paa",
 			"\gearexp\vests\tx\material_2_amc_co.paa",
-			"\gearexp\vests\tx\gppouch_amc.paa",
+			"\gearexp\vests\tx\gppouch1_amc.paa",
 			"\gearexp\vests\tx\paracletetriple_amc_CO.paa"
 		};
 		class ItemInfo: VestItem
@@ -892,9 +892,9 @@
 			"\gearexp\vests\tx\jpc_main_amp_co.paa",
 			"\gearexp\vests\tx\material_2_amp_co.paa",
 			"\gearexp\vests\tx\mp_otter_ar_pouch_amp2_co.paa",
-			"\gearexp\vests\tx\blwout_amp.paa.paa",
+			"\gearexp\vests\tx\blwout_amp.paa",
 			"\gearexp\vests\tx\holster_g.paa",
-			"\gearexp\vests\tx\gppouch_amp.paa",
+			"\gearexp\vests\tx\gppouch1_amp.paa",
 			"\gearexp\vests\tx\kywi_amp_co.paa",
 			"\gearexp\vests\tx\ronin_belt_amp3.paa",
 			"\gearexp\vests\tx\JPC2D_amp_co.paa",
@@ -936,9 +936,9 @@
 			"\gearexp\vests\tx\jpc_cummerbund_amp_co.paa",
 			"\gearexp\vests\tx\jpc_main_amp_co.paa",
 			"\gearexp\vests\tx\material_2_amp_co.paa",
-			"\gearexp\vests\tx\blwout_amp.paa.paa",
+			"\gearexp\vests\tx\blwout_amp.paa",
 			"\gearexp\vests\tx\holster_g.paa",
-			"\gearexp\vests\tx\gppouch_amp.paa",
+			"\gearexp\vests\tx\gppouch1_amp.paa",
 			"\gearexp\vests\tx\kywi_amp_co.paa",
 			"\gearexp\vests\tx\ronin_belt_amp.paa",
 			"\gearexp\vests\tx\C_fastmagpouch_2_amp2_co.paa",
@@ -981,7 +981,7 @@
 			"\gearexp\vests\tx\jpc_cummerbund_amp_co.paa",
 			"\gearexp\vests\tx\jpc_main_amp_co.paa",
 			"\gearexp\vests\tx\mp_otter_ar_pouch_amp2_co.paa",
-			"\gearexp\vests\tx\blwout_amp.paa.paa",
+			"\gearexp\vests\tx\blwout_amp.paa",
 			"\gearexp\vests\tx\holster_g.paa",
 			"\gearexp\vests\tx\kywi_amp_co.paa",
 			"\gearexp\vests\tx\C_MG_Pouch_G_2_co.paa",
@@ -1023,7 +1023,7 @@
 			"\gearexp\vests\tx\avs_b_amp_co.paa",
 			"\gearexp\vests\tx\jpc_cummerbund_amp_co.paa",
 			"\gearexp\vests\tx\jpc_main_amp_co.paa",
-			"\gearexp\vests\tx\blwout_amp.paa.paa",
+			"\gearexp\vests\tx\blwout_amp.paa",
 			"\gearexp\vests\tx\holster_g.paa",
 			"\gearexp\vests\tx\kywi_amp_co.paa",
 			"\gearexp\vests\tx\C_MG_Pouch_G_2_co.paa",
@@ -1096,7 +1096,7 @@
 			"\gearexp\vests\tx\jpc_main_amp_co.paa",
 			"\gearexp\vests\tx\material_2_amp_co.paa",
 			"\gearexp\vests\tx\mp_otter_ar_pouch_amp2_co.paa",
-			"\gearexp\vests\tx\gppouch_amp.paa",
+			"\gearexp\vests\tx\gppouch1_amp.paa",
 			"\gearexp\vests\tx\JPC2D_amp_co.paa"
 		};
 		class ItemInfo: ItemInfo
@@ -1128,7 +1128,7 @@
 			"\gearexp\vests\tx\jpc_cummerbund_amp_co.paa",
 			"\gearexp\vests\tx\jpc_main_amp_co.paa",
 			"\gearexp\vests\tx\material_2_amp_co.paa",
-			"\gearexp\vests\tx\gppouch_amp.paa",
+			"\gearexp\vests\tx\gppouch1_amp.paa",
 			"\gearexp\vests\tx\paracletetriple_amp_CO.paa"
 		};
 		class ItemInfo: ItemInfo
