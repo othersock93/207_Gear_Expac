@@ -53,6 +53,7 @@
 				"_fastmag2",
 				"_upouch"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -144,6 +145,7 @@
 				"_jpc2d",
 				"_gearasset5"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -238,6 +240,7 @@
 				"_paraclete",
 				"_fastmag1"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -329,6 +332,7 @@
 				"_gloves",
 				"_medpouch"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -417,6 +421,7 @@
 				"_grenpouch",
 				"_upouch"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -490,6 +495,7 @@
 				"_material2",
 				"_otter"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -566,6 +572,7 @@
 				"_gppouch",
 				"_jpc2d"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -639,6 +646,7 @@
 				"_gppouch",
 				"_paraclete"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -718,6 +726,7 @@
 				"_gloves",
 				"_medpouch"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -788,6 +797,7 @@
 				"_mgpouch",
 				"_radiopouch"
 			};
+			overlaySelectionsInfo[]= {"ghillie_hide"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
